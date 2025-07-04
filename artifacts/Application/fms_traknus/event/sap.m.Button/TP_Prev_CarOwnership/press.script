@@ -1,0 +1,3 @@
+paginationBarCarOwnership.pagination.index--;
+paginationBarCarOwnership.run(true); 
+paginationBarCarOwnership.handlePagination();

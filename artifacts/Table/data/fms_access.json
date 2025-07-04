@@ -1,0 +1,20 @@
+[
+	{
+		"id": "99827c58-48a5-4dba-ab05-1b1841c09c57",
+		"createdAt": "1748315767530",
+		"updatedAt": "1748315767530",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"access_id": "ACS2",
+		"access_label": "CMS"
+	},
+	{
+		"id": "277b8810-aca0-400b-a28c-4ccd3dfb8d82",
+		"createdAt": "1748315767530",
+		"updatedAt": "1748315767530",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"access_id": "ACS1",
+		"access_label": "Mobile"
+	}
+]

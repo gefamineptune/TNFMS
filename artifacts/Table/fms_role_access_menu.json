@@ -1,0 +1,49 @@
+{
+	"id": "9a957af5-4962-4c0c-a2d5-634a76e8be4c",
+	"createdAt": "2025-05-31T02:27:28.949Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "819588b1-1761-4b27-cd11-63b893449b64",
+			"fieldName": "role_id",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "1343b4ee-7ece-4fe5-a787-07292560b2b7",
+			"fieldName": "menu_id",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "60a85182-4e84-4f1e-db5a-5a1df2fcde8e",
+			"fieldName": "permission_id",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "7f207272-de7c-4cad-9cc8-3f88f08a4bd1",
+			"fieldName": "is_enabled",
+			"fieldType": "boolean",
+			"isUnique": false
+		},
+		{
+			"id": "db579fac-9ec4-4b65-f481-bcc04eb247e4",
+			"fieldName": "is_allowed",
+			"fieldType": "boolean",
+			"isUnique": false,
+			"default": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_role_access_menu",
+	"description": null,
+	"ver": "25.07.04.0917",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

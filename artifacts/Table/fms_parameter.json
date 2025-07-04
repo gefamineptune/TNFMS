@@ -1,0 +1,54 @@
+{
+	"id": "c749d2ca-2687-453e-9f4d-3f8abc9c25ad",
+	"createdAt": "2025-06-10T02:13:13.288Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "913c7815-199e-402f-b0ed-34ca93b3cc32",
+			"fieldName": "periodical_service_1",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "461c615c-371e-43c4-a9c9-a30d5d6f75c3",
+			"fieldName": "periodical_service_2",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "0631e1da-25ec-454a-f045-a7fcbfccfed2",
+			"fieldName": "reminder_periodical_service_1",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "c277afb0-150f-4d2d-a084-e72754aa6312",
+			"fieldName": "loan_deduction_weekday",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "da16a19d-b45b-4b7c-948c-e63e8b79007b",
+			"fieldName": "loan_deduction_weekend",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "e774b12b-ed62-422e-8e61-edfe18865626",
+			"fieldName": "loan_deduction_national_holiday",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_parameter",
+	"description": null,
+	"ver": "25.07.04.0916",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

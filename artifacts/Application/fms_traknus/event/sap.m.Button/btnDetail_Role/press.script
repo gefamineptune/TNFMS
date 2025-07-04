@@ -1,0 +1,27 @@
+// List: get selected row
+// Replace yourField with fieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+// console.log(data)
+
+modelFormRoleDetails.setData(data);
+
+modelinFormRoleDetailsrole_access.setData(await apiGET_Access());
+modelinFormRoleDetailsrole_status.setData(await apiGET_Status());
+
+inFormRoleDetailsrole_access.setSelectedKey(data.fms_role_role_access);
+inFormRoleDetailsrole_status.setSelectedKey(data.fms_role_role_status);
+
+modelTableAccessMenuDetails.setData(await apiGET_RoleAccessMenuRelationship(
+    option = {
+        parameters: {
+            where: JSON.stringify({"role_id":data.fms_role_role_id}),
+        }
+    }
+));
+
+BoxFormRoleDetails.setVisible(true);
+
+NavContainer.to(PageRoleDetails);

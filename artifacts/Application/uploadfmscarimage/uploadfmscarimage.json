@@ -1,0 +1,349 @@
+{
+	"id": "f5eabc40-5c80-498a-b88b-db11f3426d1a",
+	"createdAt": "2025-05-26T03:27:56.996Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "52a095f5-66c7-4923-f4ea-fd892da2aa4b",
+			"fieldName": "VBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.VBox",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "width",
+					"grouping": "Properties",
+					"value": "100%",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "1faccd1a-139a-4661-d1df-6422840d0e33",
+					"fieldName": "inFiles",
+					"fieldParent": "52a095f5-66c7-4923-f4ea-fd892da2aa4b",
+					"fieldType": "sap.ui.unified.FileUploader",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "width",
+							"grouping": "Properties",
+							"value": "100%",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "uploadOnChange",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "tooltip",
+							"grouping": "Properties",
+							"value": "Upload files to selected folder",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "sendXHR",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "multiple",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "mimeType",
+							"grouping": "Properties",
+							"value": "[\"image/png\", \"image/jpeg\"]",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "buttonOnly",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "uploadComplete",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.ui.unified.FileUploader/inFiles/uploadComplete.script",
+							"translation": []
+						},
+						{
+							"attribute": "change",
+							"grouping": "Events",
+							"value": "Anonymous Function",
+							"script": "file://event/sap.ui.unified.FileUploader/inFiles/change.js",
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "uploadUrl",
+							"grouping": "Properties",
+							"value": "/api/functions/Media/FileSave",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "placeholder",
+							"grouping": "Properties",
+							"value": "Please select image",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "c4fcf535-03b4-4694-9525-8ac249b17f6d",
+					"fieldName": "HBox",
+					"fieldParent": "52a095f5-66c7-4923-f4ea-fd892da2aa4b",
+					"fieldType": "sap.m.HBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiTinyMarginTop",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "48722438-578c-4fbc-e8c3-6ee9d69c6486",
+							"fieldName": "Image",
+							"fieldParent": "c4fcf535-03b4-4694-9525-8ac249b17f6d",
+							"fieldType": "sap.m.Image",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "height",
+									"grouping": "Properties",
+									"value": "15rem",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "ea7fe4f5-7287-4221-de30-4538b08e717c",
+					"fieldName": "FlexBox",
+					"fieldParent": "52a095f5-66c7-4923-f4ea-fd892da2aa4b",
+					"fieldType": "sap.m.FlexBox",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "visible",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "d4432990-8322-4107-af2d-4ed000918d74",
+							"fieldName": "ButtonDelete",
+							"fieldParent": "ea7fe4f5-7287-4221-de30-4538b08e717c",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Negative",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Delete Image",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/sap.m.Button/ButtonDelete/press.js",
+									"language": "javascript",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiTinyMarginEnd",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "e8a839a6-f809-4d0c-96a2-5fd718bb44a6",
+							"fieldName": "ButtonGetSrc",
+							"fieldParent": "ea7fe4f5-7287-4221-de30-4538b08e717c",
+							"fieldType": "sap.m.Button",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "type",
+									"grouping": "Properties",
+									"value": "Emphasized",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "text",
+									"grouping": "Properties",
+									"value": "Get Image Link",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "icon",
+									"grouping": "Properties",
+									"value": "sap-icon://fa-solid/link",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "press",
+									"grouping": "Events",
+									"value": "console.log(uploadfmscarimage.getSrc())",
+									"script": "console.log(uploadfmscarimage.getSrc())",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "2e0c2ed6-16f8-4c2e-f37c-257d1564e614",
+					"fieldName": "Typescript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.Typescript",
+					"script": "file://script/neptune.Typescript/Typescript.ts",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": {
+		"attributes": [],
+		"topLevelObjects": [
+			"sap.m.VBox"
+		],
+		"icon": "data:image/png;base64,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"
+	},
+	"ver": "25.06.12.0716",
+	"application": "uploadfmscarimage",
+	"title": "Upload to Media Library (Custom Component)",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "E",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": null,
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"apis": []
+}

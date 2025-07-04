@@ -1,0 +1,359 @@
+{
+	"id": "f0dacddc-5623-4fac-b528-74dd4a76546c",
+	"createdAt": "2025-06-10T02:16:11.808Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "c6ff413f-f6a5-4003-b770-bec5673c1a68",
+			"path": "/fms_parameter",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_parameter"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "8284b82c-0f93-45b9-a402-3eeb9d247e14",
+			"path": "/fms_parameter",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_parameter"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_parameter"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "daab9432-dcd3-4450-ab98-d9ffb7dadccc",
+			"path": "/fms_parameter",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_parameter"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_parameter"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "9d4a0468-d65c-4474-82f9-147e87f6a409",
+			"path": "/fms_parameter",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_parameter"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "074caaa4-e2b8-451d-b054-30cde56dfa84",
+			"path": "/fms_parameter/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "8b469ddb-565f-453e-a448-af45768758a6",
+			"name": "fms_parameter",
+			"properties": [
+				{
+					"id": "d387691b-f2ba-450e-94e4-b821e57f7163",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "def9d90e-7322-4641-97e4-813d516753ae",
+					"parent": "",
+					"name": "periodical_service_1",
+					"objectType": "string"
+				},
+				{
+					"id": "d18f6cf3-45a8-4095-b086-b0d3d9adca0b",
+					"parent": "",
+					"name": "periodical_service_2",
+					"objectType": "string"
+				},
+				{
+					"id": "ec24ecc6-138d-4128-b785-7ed494a0d160",
+					"parent": "",
+					"name": "reminder_periodical_service_1",
+					"objectType": "string"
+				},
+				{
+					"id": "8ca3ac2a-78e3-46a3-ac24-c77f50d17386",
+					"parent": "",
+					"name": "loan_deduction_weekday",
+					"objectType": "string"
+				},
+				{
+					"id": "a2dba516-4bb4-4d3f-9d28-a89f5ece71fd",
+					"parent": "",
+					"name": "loan_deduction_weekend",
+					"objectType": "string"
+				},
+				{
+					"id": "c32d775d-be50-49ad-8699-e7547fdb2b37",
+					"parent": "",
+					"name": "loan_deduction_national_holiday",
+					"objectType": "string"
+				},
+				{
+					"id": "86e68a78-4235-44cb-a41e-eb249d7f866a",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "a41aaf41-e6cd-47f8-ae8b-4123d6863216",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "d0e4823a-3fe2-4bb0-9af5-9cc09346da88",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "b54f3713-3798-4536-87c5-9fbefc6c88eb",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "cb4d85c2-3a5e-461f-b45a-3f381967fbc4",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "aba60fff-1b3c-422f-8848-f1e2c4668ec6",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "69f86f10-5fa4-4641-842c-9c8c9a5fe2b8",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "1f55fa2b-c3af-44c3-85a1-77144c0ac0e3",
+			"name": "count",
+			"properties": [
+				{
+					"id": "4c934f06-96c4-47aa-812e-3f643f20a830",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "fms_parameter",
+	"endpoint": "/api/entity",
+	"ver": "25.06.10.0216",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

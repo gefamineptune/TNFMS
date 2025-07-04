@@ -1,0 +1,44 @@
+[
+	{
+		"id": "e54684ac-ced2-400d-8209-653a2408aefa",
+		"createdAt": "1751515721762",
+		"updatedAt": "1751611615994",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"document_item": "Test",
+		"document_name": "Traknus",
+		"document_validity_period": "2025-07-09T07:00:00.000Z",
+		"document_price": "1500000",
+		"document_license_plate": "B 3424 FKK",
+		"document_remarks": "",
+		"document_car_id": "TYT-001-ZNX"
+	},
+	{
+		"id": "cad62a3e-82e9-4f1a-942f-9c37167429b1",
+		"createdAt": "1750908202638",
+		"updatedAt": "1750908202638",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"document_item": "Pajak",
+		"document_name": "Traknus",
+		"document_validity_period": "2025-06-26T00:00:00.000Z",
+		"document_price": "4000000",
+		"document_license_plate": "B 3424 FKK",
+		"document_remarks": "-",
+		"document_car_id": "TYT-001-ZNX"
+	},
+	{
+		"id": "ae613339-5821-43eb-a918-b79c6650449a",
+		"createdAt": "1750906069310",
+		"updatedAt": "1750906069310",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"document_item": "STNK",
+		"document_name": "Traknus",
+		"document_validity_period": "2025-06-26T00:00:00.000Z",
+		"document_price": "5000000",
+		"document_license_plate": "B 3424 FKK",
+		"document_remarks": "-",
+		"document_car_id": "TYT-001-ZNX"
+	}
+]

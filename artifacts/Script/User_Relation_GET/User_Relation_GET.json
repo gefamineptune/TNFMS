@@ -1,0 +1,51 @@
+{
+	"id": "9359b6cb-3749-4a8d-94ef-fe2f3eae78e5",
+	"createdAt": "2025-05-25T04:38:10.620Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "3fcbbd9c-e879-4c5b-a1bd-a649a46810cc",
+			"name": "fms_access",
+			"contextname": "fms_access"
+		},
+		{
+			"id": "848908a2-a8a7-4fe3-9c3e-d3ffab77c334",
+			"name": "fms_branch",
+			"contextname": "fms_branch"
+		},
+		{
+			"id": "7ae43b95-d209-4753-b3fe-03bddfaba658",
+			"name": "fms_department",
+			"contextname": "fms_department"
+		},
+		{
+			"id": "870884d7-1406-4119-8ca9-dc8d1f0ebf19",
+			"name": "fms_role",
+			"contextname": "fms_role"
+		},
+		{
+			"id": "5807b8d0-ebf5-4376-bf18-8225480bd036",
+			"name": "fms_status",
+			"contextname": "fms_status"
+		},
+		{
+			"id": "f77f0c1c-0148-4f02-a3de-86c4fe3f7847",
+			"name": "fms_user",
+			"contextname": "fms_user"
+		}
+	],
+	"apis": [],
+	"name": "User_Relation_GET",
+	"ver": "25.06.03.0211",
+	"description": "",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": false,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

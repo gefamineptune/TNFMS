@@ -1,0 +1,46 @@
+{
+	"id": "57950484-582a-40c4-be67-1a59bdd8fa35",
+	"createdAt": "2025-05-31T02:26:07.422Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "189b9054-0bb2-47d4-8b30-26c529f8ea98",
+			"fieldName": "permission_id",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"id": "ca48a063-e731-4ca3-baca-4bab25871dd0",
+			"fieldName": "permission_name",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [
+		{
+			"id": "0ad9a8d9-d7e7-4264-e533-cdd285c6e08a",
+			"name": "IDX_11fa906aa66fa877d5d5862d4e",
+			"columns": [
+				{
+					"id": "189b9054-0bb2-47d4-8b30-26c529f8ea98",
+					"fieldName": "permission_id",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_permission",
+	"description": null,
+	"ver": "25.07.04.0916",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

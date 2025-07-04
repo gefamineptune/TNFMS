@@ -1,0 +1,6 @@
+// var result = xhr.responseJSON;
+
+// Input data to select component
+// Car Page
+// modelinFormCarsCreatecar_remarks.setData(result);
+// modelinFormCarsDetailscar_remarks.setData(result);

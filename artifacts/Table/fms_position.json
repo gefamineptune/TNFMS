@@ -1,0 +1,32 @@
+{
+	"id": "5acd3d7e-a2c9-4699-a2c1-09a7d6d741d3",
+	"createdAt": "2025-05-25T04:12:51.875Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "position_id",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "position_name",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_position",
+	"description": null,
+	"ver": "25.07.04.0916",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

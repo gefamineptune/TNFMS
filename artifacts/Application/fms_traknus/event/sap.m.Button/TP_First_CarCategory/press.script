@@ -1,0 +1,3 @@
+paginationBarCarCategory.pagination.index = 0;
+paginationBarCarCategory.run(true); 
+paginationBarCarCategory.handlePagination();

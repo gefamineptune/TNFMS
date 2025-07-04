@@ -1,0 +1,65 @@
+[
+	{
+		"id": "fd779edb-4c91-4133-bc93-09a6795601a9",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O7",
+		"ownership_label": "PID"
+	},
+	{
+		"id": "e9054b72-7e1e-4bf1-b472-27701048ecbe",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O5",
+		"ownership_label": "Marketing"
+	},
+	{
+		"id": "80b7c8b7-10b1-4c97-bfca-aaca36032b03",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O2",
+		"ownership_label": "Manager"
+	},
+	{
+		"id": "7e1e4d4c-879f-48a4-aad6-f5a6de42e121",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O6",
+		"ownership_label": "Service"
+	},
+	{
+		"id": "6b3c9c68-39d7-4d27-b3ef-8622ef06879c",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O4",
+		"ownership_label": "HR/GA"
+	},
+	{
+		"id": "232926a3-43ef-49ff-8ac9-13f0e8592352",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O3",
+		"ownership_label": "RSVP"
+	},
+	{
+		"id": "1c941752-605c-4b59-bc77-66b66a351cef",
+		"createdAt": "1748149823751",
+		"updatedAt": "1748149823751",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"ownership_id": "O1",
+		"ownership_label": "Dept. HR/GA"
+	}
+]

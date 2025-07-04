@@ -1,0 +1,20 @@
+[
+	{
+		"id": "74436520-e71a-4def-af61-6c991765ede4",
+		"createdAt": "1748169688988",
+		"updatedAt": "1748169688988",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"fuel_id": "F1",
+		"fuel_label": "Bensin"
+	},
+	{
+		"id": "28bdddc8-e962-4ba6-af72-989770d9f942",
+		"createdAt": "1749003107913",
+		"updatedAt": "1749003107913",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"fuel_id": "F2",
+		"fuel_label": "Solar"
+	}
+]

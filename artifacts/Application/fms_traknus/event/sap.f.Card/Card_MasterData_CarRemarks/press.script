@@ -1,0 +1,6 @@
+await apiGET_CarRemarks();
+
+FormCarRemarksCreate.setVisible(false);
+FormCarRemarksDetails.setVisible(false);
+
+NavContainer.to(PageCarRemarks);

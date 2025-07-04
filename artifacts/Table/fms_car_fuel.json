@@ -1,0 +1,47 @@
+{
+	"id": "94e0e953-6ff4-45e6-90ed-9a0016276530",
+	"createdAt": "2025-05-25T10:40:36.626Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "fuel_id",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"fieldName": "fuel_label",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [
+		{
+			"id": "ba7e7743-c1b8-4208-b47f-125a1d851c19",
+			"name": "IDX_a57129eb32ca467b4b2f537f11",
+			"columns": [
+				{
+					"fieldName": "fuel_id",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_car_fuel",
+	"description": null,
+	"ver": "25.07.04.0915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

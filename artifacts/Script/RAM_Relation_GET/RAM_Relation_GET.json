@@ -1,0 +1,41 @@
+{
+	"id": "29082dd1-4aa0-44d8-8d85-68e1fb3b10b0",
+	"createdAt": "2025-05-25T04:38:10.620Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "2f9f926c-d03d-422f-942b-7bcf931b3842",
+			"name": "fms_menu",
+			"contextname": "fms_menu"
+		},
+		{
+			"id": "57950484-582a-40c4-be67-1a59bdd8fa35",
+			"name": "fms_permission",
+			"contextname": "fms_permission"
+		},
+		{
+			"id": "870884d7-1406-4119-8ca9-dc8d1f0ebf19",
+			"name": "fms_role",
+			"contextname": "fms_role"
+		},
+		{
+			"id": "9a957af5-4962-4c0c-a2d5-634a76e8be4c",
+			"name": "fms_role_access_menu",
+			"contextname": "fms_role_access_menu"
+		}
+	],
+	"apis": [],
+	"name": "RAM_Relation_GET",
+	"ver": "25.06.09.0542",
+	"description": "Role Access Menu",
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

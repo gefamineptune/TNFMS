@@ -1,0 +1,3 @@
+paginationBarCarType.pagination.index = parseInt(this.getSelectedKey());
+paginationBarCarType.run(true); 
+paginationBarCarType.handlePagination();

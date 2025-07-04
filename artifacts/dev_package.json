@@ -1,0 +1,458 @@
+{
+	"id": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"createdAt": "2025-05-25T04:14:05.323Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/gefamineptune/TNFMS.git",
+		"branch": "main"
+	},
+	"name": "fms_package",
+	"description": null,
+	"ver": "25.07.04.0919",
+	"enableCICD": true,
+	"internalReadOnly": false,
+	"oeVersion": null,
+	"excludeTemplateFiles": false,
+	"roles": [],
+	"apps": [
+		{
+			"id": "f5eabc40-5c80-498a-b88b-db11f3426d1a",
+			"application": "uploadfmscarimage",
+			"title": "Upload to Media Library (Custom Component)",
+			"description": ""
+		},
+		{
+			"id": "51f35bb6-680b-45b7-d7e8-89195bcf0233",
+			"application": "fms_traknus",
+			"title": "FMS App",
+			"description": ""
+		}
+	],
+	"api": [
+		{
+			"id": "feb85c85-74df-4fc9-894c-d81dcd38f03b",
+			"name": "fms_car_brand",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "f0dacddc-5623-4fac-b528-74dd4a76546c",
+			"name": "fms_parameter",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "eb225d61-60ec-48ca-a97d-712e29ffd5fa",
+			"name": "fms_user",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "dae6ad0c-d618-453b-b808-2fac8b70a053",
+			"name": "fms_role_access_menu",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "d9b39473-a82a-4f3c-8e23-f3d6b7733ad4",
+			"name": "fms_document_report",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "cfee0dd7-b6f8-41e4-9979-a7dca628360e",
+			"name": "fms_role_relation",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "cd34d4ce-9109-4a37-87a5-59102283864a",
+			"name": "fms_relationship",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "cb4b6263-8b97-40cc-961b-0715e14790a0",
+			"name": "fms_car_status",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "ca5dd744-dfa2-4870-b825-e6f4baadd1b4",
+			"name": "fms_car_remarks",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "c3c7323b-44e8-416e-ab06-fbcc997a1ddb",
+			"name": "fms_car_acquisition",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b911c567-61c1-4c3e-82b3-1ecf1e700a83",
+			"name": "fms_car_fuel",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "b2510b7e-1388-43da-9f91-96f7edb112d7",
+			"name": "fms_user_relation",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "aa93853e-b152-46d6-91b1-bcba08a28579",
+			"name": "fms_status",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "a4e1c99d-c35d-4446-9d5c-d208e8f2f68e",
+			"name": "fms_department",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "9e2c8f6b-720a-4769-894f-fcbaf1ea0b5c",
+			"name": "fms_car_condition_type",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "84e6ed9d-1418-4060-9f99-b5908fb1964e",
+			"name": "fms_car_type",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7fcf9c34-deab-4017-a616-3fd7bf283c38",
+			"name": "fms_role",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7759ee96-24d0-4462-9e59-87fc60a361a2",
+			"name": "fms_permission",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "7340ceff-a8ed-4c50-92ff-0cd8fdad6399",
+			"name": "fms_car_ownership",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "5828aa55-eba2-4847-b725-cc9cdd311208",
+			"name": "fms_car_category",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "4abb9a6e-9137-4082-a171-e09ce5552a34",
+			"name": "fms_role_access_menu_relation",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "47683c31-e44f-4d7a-b27b-ea09aeafa4b5",
+			"name": "fms_car_relation",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "3e40dd1e-320d-46be-9aa5-5d13262bcf0d",
+			"name": "fms_document_report_relation",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "31bc2e10-da03-49ef-a26b-88479d1bc2c6",
+			"name": "fms_car",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "313748e5-1a8b-4b48-a0ec-ba30ab209541",
+			"name": "fms_car_cost_center",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "2eee2590-9d34-427d-aec5-4a7a053a5f57",
+			"name": "fms_branch",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "1fd6359c-b29a-433f-aff7-a9d5812d3f2d",
+			"name": "fms_menu",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "1e3a6b24-d553-45d9-94a2-f49b9656e3fc",
+			"name": "fms_access",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "1aa649cd-b70b-479a-9b18-0541b5ea62a9",
+			"name": "fms_position",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "f77f0c1c-0148-4f02-a3de-86c4fe3f7847",
+			"name": "fms_user",
+			"description": null
+		},
+		{
+			"id": "f3ab2280-77b5-426d-82ac-1880ab51f729",
+			"name": "fms_car_cost_center",
+			"description": null
+		},
+		{
+			"id": "eee62ec8-4823-41d5-a243-158abac8aab6",
+			"name": "fms_car_status",
+			"description": null
+		},
+		{
+			"id": "cee7a547-bdfc-433b-aa38-aa1b339bfb07",
+			"name": "fms_car_acquisition",
+			"description": null
+		},
+		{
+			"id": "c749d2ca-2687-453e-9f4d-3f8abc9c25ad",
+			"name": "fms_parameter",
+			"description": null
+		},
+		{
+			"id": "ae3974f4-5397-4239-a426-c45dcae00d7f",
+			"name": "fms_car",
+			"description": null
+		},
+		{
+			"id": "abe0cc2d-b086-4f12-8392-ccc878fefd49",
+			"name": "fms_car_category",
+			"description": null
+		},
+		{
+			"id": "9e5a2d7c-54b5-4ae0-8815-a9456ed82223",
+			"name": "fms_car_type",
+			"description": null
+		},
+		{
+			"id": "9a957af5-4962-4c0c-a2d5-634a76e8be4c",
+			"name": "fms_role_access_menu",
+			"description": null
+		},
+		{
+			"id": "94e0e953-6ff4-45e6-90ed-9a0016276530",
+			"name": "fms_car_fuel",
+			"description": null
+		},
+		{
+			"id": "870884d7-1406-4119-8ca9-dc8d1f0ebf19",
+			"name": "fms_role",
+			"description": null
+		},
+		{
+			"id": "848908a2-a8a7-4fe3-9c3e-d3ffab77c334",
+			"name": "fms_branch",
+			"description": null
+		},
+		{
+			"id": "7ae43b95-d209-4753-b3fe-03bddfaba658",
+			"name": "fms_department",
+			"description": null
+		},
+		{
+			"id": "64258807-322a-4dc7-8f5e-6ca903bb2108",
+			"name": "fms_car_ownership",
+			"description": null
+		},
+		{
+			"id": "5acd3d7e-a2c9-4699-a2c1-09a7d6d741d3",
+			"name": "fms_position",
+			"description": null
+		},
+		{
+			"id": "5807b8d0-ebf5-4376-bf18-8225480bd036",
+			"name": "fms_status",
+			"description": null
+		},
+		{
+			"id": "57950484-582a-40c4-be67-1a59bdd8fa35",
+			"name": "fms_permission",
+			"description": null
+		},
+		{
+			"id": "42ff2c86-61a5-433c-bbeb-29f6cb70fa67",
+			"name": "fms_document_report",
+			"description": null
+		},
+		{
+			"id": "3fcbbd9c-e879-4c5b-a1bd-a649a46810cc",
+			"name": "fms_access",
+			"description": null
+		},
+		{
+			"id": "2f9f926c-d03d-422f-942b-7bcf931b3842",
+			"name": "fms_menu",
+			"description": null
+		},
+		{
+			"id": "2f21cd1a-83e7-49ca-a694-a672bafd10f2",
+			"name": "fms_car_brand",
+			"description": null
+		},
+		{
+			"id": "21d70181-cbf7-44f2-bb31-00d4430d1544",
+			"name": "fms_car_condition_type",
+			"description": null
+		},
+		{
+			"id": "157a84fe-cd67-4bda-983a-75df2289143f",
+			"name": "fms_car_remarks",
+			"description": null
+		}
+	],
+	"jsclass": [
+		{
+			"id": "c8a94c5e-4bf0-4a28-af4e-433206d36703",
+			"name": "Password_Encrypt",
+			"description": null
+		},
+		{
+			"id": "c7182c32-9c34-48ea-8e33-a94ea4c0ff01",
+			"name": "DB_User_Relationship - Mapping",
+			"description": ""
+		},
+		{
+			"id": "a798192d-549f-4e1a-b45f-6108c0afe29f",
+			"name": "Check_Execution_Time",
+			"description": null
+		},
+		{
+			"id": "980cf6f0-3a28-4102-98b9-7addfbf6b36a",
+			"name": "User_Relation_GET - Copy",
+			"description": ""
+		},
+		{
+			"id": "9359b6cb-3749-4a8d-94ef-fe2f3eae78e5",
+			"name": "User_Relation_GET",
+			"description": ""
+		},
+		{
+			"id": "6cb8f752-bb27-430c-998f-2c02fe1c2712",
+			"name": "RAM_Relation_GET - Menu",
+			"description": ""
+		},
+		{
+			"id": "4b8d20af-8b3c-4773-9ec5-6b0d575d5d37",
+			"name": "Document_Report_Relation_GET",
+			"description": null
+		},
+		{
+			"id": "343a0942-fb4f-4c52-8dd0-46f05e7cde21",
+			"name": "Role_Relation_COUNT",
+			"description": ""
+		},
+		{
+			"id": "32429168-6e75-4efe-a849-d894be598c68",
+			"name": "User_Relation_COUNT",
+			"description": ""
+		},
+		{
+			"id": "29082dd1-4aa0-44d8-8d85-68e1fb3b10b0",
+			"name": "RAM_Relation_GET",
+			"description": "Role Access Menu"
+		},
+		{
+			"id": "28531918-1939-464d-af75-50d9fa77ffc2",
+			"name": "RAM_Relation_GET - Copy 3",
+			"description": ""
+		},
+		{
+			"id": "27b592c8-f090-4d77-a683-038d94e8c58c",
+			"name": "Role_Relation_GET",
+			"description": ""
+		},
+		{
+			"id": "2456f765-f61e-46b5-a895-cb418bd6ea7e",
+			"name": "Car_Relation_GET",
+			"description": ""
+		},
+		{
+			"id": "1f2a05ed-d7b6-4e3c-9693-eaf146ada836",
+			"name": "DB_Car_Relationship",
+			"description": null
+		},
+		{
+			"id": "1ec80f1e-34d7-4dd7-be00-c329bace4a08",
+			"name": "RAM_Relation_GET - Copy",
+			"description": ""
+		},
+		{
+			"id": "1a499324-435d-4e85-87b8-e78edcda21f7",
+			"name": "RAM_Relation_GET - Copy 2",
+			"description": ""
+		},
+		{
+			"id": "17bc555e-8b06-4cb2-8d22-01e9a3ed0b8f",
+			"name": "RAM_Relation_GET - Copy Fix",
+			"description": ""
+		},
+		{
+			"id": "16c00d46-9368-4c60-8572-46eadd2c9d8d",
+			"name": "Password_Decrypt",
+			"description": ""
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "9872b520-c49e-4d4a-85a4-870902755905",
+			"name": "fms_script",
+			"description": ""
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"tile_layout": [],
+	"category": [],
+	"tilegroup_layout": [],
+	"launchpad": [
+		{
+			"id": "0180e424-349d-4c48-bc7b-d4f77b5e8c07",
+			"name": "fms_launchpad",
+			"description": null
+		}
+	],
+	"launchpad_layout": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": [],
+	"theme_ui5": [],
+	"webapp": []
+}

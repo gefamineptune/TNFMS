@@ -1,0 +1,61 @@
+{
+	"id": "42ff2c86-61a5-433c-bbeb-29f6cb70fa67",
+	"createdAt": "2025-06-26T02:37:04.143Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "41ec277a-858b-403a-af3f-a0601b5763cf",
+			"fieldName": "document_item",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "59aec1fe-ccb3-4224-b27a-852f37b92fe9",
+			"fieldName": "document_name",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "5d8773da-41ce-48a7-de81-fd9b454fbfb0",
+			"fieldName": "document_validity_period",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "ce227cf0-35c4-4e87-b345-4b35b8ea8b60",
+			"fieldName": "document_price",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "53de8d03-6066-4447-91e0-545c11181aa0",
+			"fieldName": "document_license_plate",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "22c33eea-0a32-4375-c811-fa25b9af7b0f",
+			"fieldName": "document_remarks",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "b42b3e2e-5a92-4eb7-83f3-94c472813a69",
+			"fieldName": "document_car_id",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_document_report",
+	"description": null,
+	"ver": "25.07.04.0913",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,137 @@
+{
+	"id": "ae3974f4-5397-4239-a426-c45dcae00d7f",
+	"createdAt": "2025-05-26T02:35:36.301Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "car_id",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_image",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_brand",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_type",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_license_plate",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_fuel",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_branch",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_ownership",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "car_status",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "ffef14da-9174-4057-bee8-8bd7fcf90882",
+			"fieldName": "car_purchase_value",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "caf2646d-34b0-4e64-df00-7a6dfdf881e0",
+			"fieldName": "car_fixed_cost",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "69cbd65a-ae41-42b7-c91f-878d2ddd2e9f",
+			"fieldName": "car_acquisition_type",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "87b14f81-8f46-41b7-fbe6-bde4a497077a",
+			"fieldName": "car_acquisition_date",
+			"fieldType": "timestamp",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "26b1dc0c-efa8-4645-c1b7-2de850f69028",
+			"fieldName": "car_category",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "e06c0439-ff14-4ec3-82ce-83a89188c386",
+			"fieldName": "car_service_contract_maintenance",
+			"fieldType": "smallint",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "83e77c82-b9e9-43a2-eb5b-1691ba144bcb",
+			"fieldName": "car_condition_type",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "238a9938-79a6-47fa-e445-e630b7c2ff1c",
+			"fieldName": "car_cost_center",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_car",
+	"description": null,
+	"ver": "25.07.04.0914",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"id": "ce1af9d7-a43b-40e4-acab-dd9d9cf5a22a",
+		"createdAt": "1748171201282",
+		"updatedAt": "1748171201282",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"acquisition_id": "AC1",
+		"acquisition_label": "Asset"
+	},
+	{
+		"id": "7be4690d-1473-462a-ae30-48a0c80034fc",
+		"createdAt": "1748171201282",
+		"updatedAt": "1748171201282",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"acquisition_id": "AC2",
+		"acquisition_label": "Rent"
+	}
+]

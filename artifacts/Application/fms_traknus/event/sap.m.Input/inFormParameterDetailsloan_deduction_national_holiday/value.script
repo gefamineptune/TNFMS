@@ -1,0 +1,7 @@
+// Check if value has a valid value before formatting
+if (typeof loan_deduction_national_holiday === "undefined" || loan_deduction_national_holiday === null || loan_deduction_national_holiday === "") { 
+    return; 
+}  
+// Format the value using the Formatter utility
+var formattedText = formatAngkaDenganTitik(loan_deduction_national_holiday); 
+return formattedText;

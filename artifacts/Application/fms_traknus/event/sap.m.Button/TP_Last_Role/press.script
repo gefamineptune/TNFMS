@@ -1,0 +1,6 @@
+var maxIndex = (paginationBarRole.pagination.count / paginationBarRole.pagination.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBarRole.pagination.index = maxIndex - 1;
+paginationBarRole.run(true); 
+paginationBarRole.handlePagination();

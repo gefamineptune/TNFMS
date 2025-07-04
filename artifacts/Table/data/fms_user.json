@@ -1,0 +1,44 @@
+[
+	{
+		"id": "9f23e409-7e9b-4ea3-b12d-8045d773e3ca",
+		"createdAt": "1748597324063",
+		"updatedAt": "1749628561489",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"user_id": "21321",
+		"user_name": "Fulan",
+		"user_password": "$2a$10$y63aIUntM8BBlasz0b1qYv313233",
+		"user_branch": "BR2",
+		"user_department": "D3",
+		"user_role": "R1",
+		"user_status": "S1"
+	},
+	{
+		"id": "7a9d1f18-2b71-401e-a8d1-104829e325fd",
+		"createdAt": "1748570954955",
+		"updatedAt": "1748570954955",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"user_id": "12224234",
+		"user_name": "Fulan Fulanah",
+		"user_password": "$2a$10$6ZDi8tND2Dgov1OVkoUbXU313233343536",
+		"user_branch": "BR1",
+		"user_department": "D4",
+		"user_role": "R2",
+		"user_status": "S1"
+	},
+	{
+		"id": "1f58703b-9d22-430e-b684-85552b8f6a35",
+		"createdAt": "1748570954955",
+		"updatedAt": "1748576514847",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"user_id": "421442132",
+		"user_name": "Rizky",
+		"user_password": "$2a$10$GInWQqa7wpUkHUXxyiln2D313233343536",
+		"user_branch": "BR3",
+		"user_department": "D3",
+		"user_role": "R2",
+		"user_status": "S1"
+	}
+]

@@ -1,0 +1,7 @@
+// Check if value has a valid value before formatting
+if (typeof car_purchase_value === "undefined" || car_purchase_value === null || car_purchase_value === "") { 
+    return; 
+}  
+// Format the value using the Formatter utility
+var formattedText = formatAngkaDenganTitik(car_purchase_value); 
+return formattedText;

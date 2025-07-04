@@ -1,0 +1,40 @@
+// console.log(inFiles.getValue());
+const formResponse = oEvent?.mParameters?.responseRaw;
+
+if (formResponse) {
+    try {
+        const status = JSON.parse(formResponse)?.status;
+        if (status === "OK") {
+            sap.m.MessageToast.show(
+                "Uploaded successfully. Check the Media Library folder.",
+                {
+                    my: sap.ui.core.Popup.Dock.CenterBottom,
+                    at: sap.ui.core.Popup.Dock.CenterBottom
+                }
+            );
+
+            HBox.setVisible(true)
+            // FlexBox.setVisible(true)
+            // ButtonDelete.setVisible(true)
+            // ButtonGetSrc.setVisible(true)
+
+            var removedQuotes = inFiles.getValue().replace(/['"]+/g, '')
+            var removedSpaces = removedQuotes.slice(0, -1);
+            var url = window.location.origin + "/media/root/FMS/Cars/" + removedSpaces;
+            // var url = window.location.origin + "/media/root/" + removedSpaces;
+            Image.setSrc(encodeURI(url));
+            // this.setValue();
+        }
+        if (status && status !== "OK") {
+            sap.m.MessageBox.error(status);
+        }
+    } catch (e) {
+        sap.m.MessageToast.show("Error saving file");
+        console.log(e);
+    } finally {
+        return;
+    }
+}
+
+sap.m.MessageToast.show("Error saving file");
+

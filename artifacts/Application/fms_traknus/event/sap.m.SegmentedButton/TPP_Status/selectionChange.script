@@ -1,0 +1,3 @@
+paginationBarStatus.pagination.index = parseInt(this.getSelectedKey());
+paginationBarStatus.run(true); 
+paginationBarStatus.handlePagination();

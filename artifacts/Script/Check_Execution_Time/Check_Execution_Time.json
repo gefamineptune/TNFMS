@@ -1,0 +1,20 @@
+{
+	"id": "a798192d-549f-4e1a-b45f-6108c0afe29f",
+	"createdAt": "2025-05-30T02:53:55.333Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [],
+	"apis": [],
+	"name": "Check_Execution_Time",
+	"ver": "25.05.30.0327",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

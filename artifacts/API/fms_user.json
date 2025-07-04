@@ -1,0 +1,372 @@
+{
+	"id": "eb225d61-60ec-48ca-a97d-712e29ffd5fa",
+	"createdAt": "2025-05-30T02:08:53.233Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "d1a2e250-5891-4bab-98a0-b3fa02e73aed",
+			"path": "/fms_user",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_user"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "74edd916-e802-45c2-8807-a8051fab1b77",
+			"path": "/fms_user",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_user"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_user"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "dd2c1428-807a-49c4-a53f-ea9090a2b6b0",
+			"path": "/fms_user",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_user"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_user"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "3adc0c69-1b1e-419a-8f51-1bb22d36d814",
+			"path": "/fms_user",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_user"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "86118f09-67c9-44e7-9a19-63a5bee88756",
+			"path": "/fms_user/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "332ebdbc-cc7e-4e35-a0b4-99b11e260857",
+			"name": "fms_user",
+			"properties": [
+				{
+					"id": "7525f071-44d3-43f9-bc20-94db352e2e0c",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "301d8c57-cff1-4d0e-be45-9eb7d4f21ea6",
+					"parent": "",
+					"name": "user_id",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "63bc9210-be30-4d5e-93e3-24bf1dc54fbc",
+					"parent": "",
+					"name": "user_name",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "bdfd829e-6679-4aae-93f0-0b0f99bf3ae1",
+					"parent": "",
+					"name": "user_password",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "5ca7d7a0-af32-4cb7-8d98-cfae4735b7f9",
+					"parent": "",
+					"name": "user_branch",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "4e909be3-0dbb-4498-ae3b-e37a217d72e0",
+					"parent": "",
+					"name": "user_department",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "8f9da86a-38c7-4cb7-83e4-eb00532b8ef7",
+					"parent": "",
+					"name": "user_role",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "8b3c428f-da3f-4ddf-835b-c5f16b77f071",
+					"parent": "",
+					"name": "user_status",
+					"description": "",
+					"objectType": "string"
+				},
+				{
+					"id": "9c627838-8b7d-44ef-9e70-a6f9ea6a7411",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "d7f35bff-0c98-4117-bb51-0b2578752b89",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "9735c72a-e49e-4793-a202-e038f38ecb14",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "34a5dfab-83c2-4234-9f3d-796063761bdf",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "014df3c7-8bb6-4280-890c-fa41dbc72886",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "9fce97cb-0b4f-4640-b401-7f9e04ed92a7",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "05a1e0a1-7a3a-4a1b-9eec-a84500d16efd",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "7f1d9261-c270-4a0b-81f7-1822c00ff6ac",
+			"name": "count",
+			"properties": [
+				{
+					"id": "8a83b0b3-a9db-4ac4-87ec-65da46fcebb4",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "fms_user",
+	"endpoint": "/api/entity",
+	"ver": "25.05.30.0208",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

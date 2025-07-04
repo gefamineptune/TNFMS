@@ -1,0 +1,11 @@
+// Get selected row data
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelFormStatusDetails.setData(data);
+
+FormStatusDetails.setVisible(true);
+
+NavContainer.to(PageStatusDetails);

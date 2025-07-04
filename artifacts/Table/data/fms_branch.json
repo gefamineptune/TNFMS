@@ -1,0 +1,56 @@
+[
+	{
+		"id": "ce4f4a14-98a8-47a8-a6d1-5914b3584b69",
+		"createdAt": "1748578242924",
+		"updatedAt": "1748578242924",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR4",
+		"branch_label": "Bali"
+	},
+	{
+		"id": "809de004-32b1-431b-95d5-c38e8554154f",
+		"createdAt": "1748149439580",
+		"updatedAt": "1748149439580",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR1",
+		"branch_label": "Jakarta"
+	},
+	{
+		"id": "43909cc1-44a0-4911-b1c0-a96d1b2a5053",
+		"createdAt": "1748571991596",
+		"updatedAt": "1748571991596",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR2",
+		"branch_label": "Bandung"
+	},
+	{
+		"id": "320b22b2-68ba-410f-ab0b-8386b327c68e",
+		"createdAt": "1748578271453",
+		"updatedAt": "1748673821320",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR6",
+		"branch_label": "Solo"
+	},
+	{
+		"id": "2dc9785e-1687-4981-82b6-9d4d4e0146af",
+		"createdAt": "1748578253426",
+		"updatedAt": "1748578253426",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR5",
+		"branch_label": "Semarang"
+	},
+	{
+		"id": "06583b4f-77f6-49df-8d5b-6ac1771bb78d",
+		"createdAt": "1748572279461",
+		"updatedAt": "1748572279461",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BR3",
+		"branch_label": "Surabaya"
+	}
+]

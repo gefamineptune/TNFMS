@@ -1,0 +1,20 @@
+[
+	{
+		"id": "7237124a-032c-4e28-b957-eb972a338b9a",
+		"createdAt": "1748148272787",
+		"updatedAt": "1748148272787",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_id": "P1",
+		"position_name": "Manager"
+	},
+	{
+		"id": "401e4db3-d8ab-4091-9ace-3959efc93a4d",
+		"createdAt": "1748148812274",
+		"updatedAt": "1748148812274",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"position_id": "P2",
+		"position_name": "Staff"
+	}
+]

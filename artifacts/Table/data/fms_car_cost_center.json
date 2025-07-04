@@ -1,0 +1,20 @@
+[
+	{
+		"id": "d8eba3ca-5cf8-42be-9f10-428e21a2610a",
+		"createdAt": "1750901187830",
+		"updatedAt": "1750901187830",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"cost_center_id": "CC1",
+		"cost_center_label": "JKT-SVC-N3"
+	},
+	{
+		"id": "7b8aaf68-c8e6-4646-952f-d5977a890e62",
+		"createdAt": "1750901187830",
+		"updatedAt": "1750901187830",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"cost_center_id": "CC2",
+		"cost_center_label": "HDO-0101"
+	}
+]

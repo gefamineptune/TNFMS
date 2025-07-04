@@ -1,0 +1,47 @@
+{
+	"id": "2f21cd1a-83e7-49ca-a694-a672bafd10f2",
+	"createdAt": "2025-05-25T10:56:24.115Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "brand_id",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"fieldName": "brand_name",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [
+		{
+			"id": "ef584e82-8e01-4276-ded8-80d8d92827af",
+			"name": "IDX_868687f8bb6c2088c2ff1aef0f",
+			"columns": [
+				{
+					"fieldName": "brand_id",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_car_brand",
+	"description": null,
+	"ver": "25.07.04.0915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

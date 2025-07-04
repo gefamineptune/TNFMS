@@ -1,0 +1,38 @@
+[
+	{
+		"id": "c110106a-96e0-4ab2-9e07-b1037e175e60",
+		"createdAt": "1748148245568",
+		"updatedAt": "1748148245568",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_id": "D3",
+		"department_name": "Marketing"
+	},
+	{
+		"id": "9ef49fdb-8276-46d3-a73d-74d0dc5ffcf9",
+		"createdAt": "1748572250411",
+		"updatedAt": "1748572250411",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_id": "D4",
+		"department_name": "Finance"
+	},
+	{
+		"id": "87cfdcf5-f659-426f-ac83-ea3f6d3f8039",
+		"createdAt": "1748148245568",
+		"updatedAt": "1748231442544",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_id": "D1",
+		"department_name": "Services"
+	},
+	{
+		"id": "2a2e207e-e11c-41d4-a96b-9192a872f885",
+		"createdAt": "1748148245568",
+		"updatedAt": "1748148245568",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"department_id": "D2",
+		"department_name": "PID"
+	}
+]

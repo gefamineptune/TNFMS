@@ -1,0 +1,44 @@
+{
+	"id": "3fcbbd9c-e879-4c5b-a1bd-a649a46810cc",
+	"createdAt": "2025-05-27T03:15:07.829Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "3aaf7d84-e763-4d82-a42e-713ee289e5f4",
+			"fieldName": "access_id",
+			"fieldType": "smalltext",
+			"isUnique": true
+		},
+		{
+			"id": "ed636c51-443f-4c56-cb60-1765ca67d8f1",
+			"fieldName": "access_label",
+			"fieldType": "text",
+			"isUnique": false
+		}
+	],
+	"indices": [
+		{
+			"id": "ca5cf41c-5dfd-40f0-d186-0feafc5914d8",
+			"name": "IDX_f64c02721260aaaafb90d47954",
+			"columns": [
+				{
+					"id": "3aaf7d84-e763-4d82-a42e-713ee289e5f4",
+					"fieldName": "access_id",
+					"fieldType": "smalltext",
+					"isUnique": true
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_access",
+	"description": null,
+	"ver": "25.07.04.0914",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

@@ -1,0 +1,13 @@
+try {
+    // Check if value has a valid value before formatting
+    if (typeof periodical_service_1 === "undefined" || periodical_service_1 === null || periodical_service_1 === "") { 
+        return; 
+    }  
+    // Format the value using the Formatter utility
+    var formattedText = formatAngkaDenganTitik(periodical_service_1); 
+    return formattedText;
+} catch (error) {
+    // Handle any errors that might occur during formatting
+    console.error("Error formatting value:", error);
+    return periodical_service_1; // Return original value if formatting fails
+}

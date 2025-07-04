@@ -1,0 +1,66 @@
+{
+	"id": "1f2a05ed-d7b6-4e3c-9693-eaf146ada836",
+	"createdAt": "2025-05-26T02:50:23.777Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "ae3974f4-5397-4239-a426-c45dcae00d7f",
+			"name": "fms_car",
+			"contextname": "fms_car"
+		},
+		{
+			"id": "cee7a547-bdfc-433b-aa38-aa1b339bfb07",
+			"name": "fms_car_acquisition",
+			"contextname": "fms_car_acquisition"
+		},
+		{
+			"id": "2f21cd1a-83e7-49ca-a694-a672bafd10f2",
+			"name": "fms_car_brand",
+			"contextname": "fms_car_brand"
+		},
+		{
+			"id": "abe0cc2d-b086-4f12-8392-ccc878fefd49",
+			"name": "fms_car_category",
+			"contextname": "fms_car_category"
+		},
+		{
+			"id": "94e0e953-6ff4-45e6-90ed-9a0016276530",
+			"name": "fms_car_fuel",
+			"contextname": "fms_car_fuel"
+		},
+		{
+			"id": "64258807-322a-4dc7-8f5e-6ca903bb2108",
+			"name": "fms_car_ownership",
+			"contextname": "fms_car_ownership"
+		},
+		{
+			"id": "157a84fe-cd67-4bda-983a-75df2289143f",
+			"name": "fms_car_remarks",
+			"contextname": "fms_car_remarks"
+		},
+		{
+			"id": "eee62ec8-4823-41d5-a243-158abac8aab6",
+			"name": "fms_car_status",
+			"contextname": "fms_car_status"
+		},
+		{
+			"id": "9e5a2d7c-54b5-4ae0-8815-a9456ed82223",
+			"name": "fms_car_type",
+			"contextname": "fms_car_type"
+		}
+	],
+	"apis": [],
+	"name": "DB_Car_Relationship",
+	"ver": "25.05.30.0327",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

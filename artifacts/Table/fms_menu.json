@@ -1,0 +1,53 @@
+{
+	"id": "2f9f926c-d03d-422f-942b-7bcf931b3842",
+	"createdAt": "2025-05-31T02:14:04.295Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "f1f76498-d3e2-40d3-8a02-bd32a8840a66",
+			"fieldName": "menu_id",
+			"fieldType": "smalltext",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"id": "08f96caf-e4ea-4dc5-dbbc-c7b830265398",
+			"fieldName": "menu_name",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "9ea8400c-6561-474f-d934-e4e1f38ca58b",
+			"fieldName": "menu_order",
+			"fieldType": "integer",
+			"isUnique": true,
+			"isNullable": false
+		}
+	],
+	"indices": [
+		{
+			"id": "c34e71b1-8f38-4dda-ffcd-c64a2fda1aa4",
+			"name": "IDX_3830b30bdf17d6df5e1886d209",
+			"columns": [
+				{
+					"id": "f1f76498-d3e2-40d3-8a02-bd32a8840a66",
+					"fieldName": "menu_id",
+					"fieldType": "smalltext",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_menu",
+	"description": null,
+	"ver": "25.07.04.0916",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

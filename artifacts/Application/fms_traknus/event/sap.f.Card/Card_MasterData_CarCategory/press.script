@@ -1,0 +1,6 @@
+await apiGET_CarCategory();
+
+FormCarCategoryCreate.setVisible(false);
+FormCarCategoryDetails.setVisible(false);
+
+NavContainer.to(PageCarCategory);

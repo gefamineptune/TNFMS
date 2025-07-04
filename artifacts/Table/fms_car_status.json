@@ -1,0 +1,47 @@
+{
+	"id": "eee62ec8-4823-41d5-a243-158abac8aab6",
+	"createdAt": "2025-05-25T05:13:11.423Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "status_id",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"fieldName": "status_label",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [
+		{
+			"id": "22fcc8d1-8a0d-45af-913d-b6b4261fdf12",
+			"name": "IDX_07a51574ca473cf7ed56836ff6",
+			"columns": [
+				{
+					"fieldName": "status_id",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_car_status",
+	"description": null,
+	"ver": "25.07.04.0915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

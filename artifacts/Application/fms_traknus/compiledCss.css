@@ -1,0 +1,178 @@
+.sapTntSideNavigation {
+  min-width: 18rem;
+  width: 18rem;
+}
+
+#NavContainer {
+  background-color: white !important;
+}
+
+.toolPagination {
+  border: none !important;
+  height: 3rem;
+}
+
+.sapMTB.toolHeader {
+  height: 4rem !important;
+  padding: 3px 16px 3px 12px !important;
+}
+
+.borderAll {
+  border: solid 0.0625rem #D9D9D9 !important;
+}
+
+.borderTop {
+  border-top: solid 0.0625rem #a8b3bd !important;
+}
+
+.borderBottom {
+  border-bottom: solid 0.0625rem #a8b3bd !important;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.fc-black {
+  color: #131e29 !important;
+}
+
+.fc-black.sapMBtn * {
+  color: #131e29 !important;
+}
+
+.fw-600 {
+  font-weight: 600 !important;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fit-content {
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+.w-fit-content {
+  width: fit-content !important;
+}
+
+.h-fit-content {
+  height: fit-content !important;
+}
+
+.justify-start {
+  justify-content: flex-start !important;
+}
+
+.padding-none {
+  padding: 0 !important;
+}
+
+.padding-m {
+  padding: 0.5rem !important;
+}
+
+.padding-l {
+  padding: 1rem !important;
+}
+
+.padding-xl {
+  padding: 1.5rem !important;
+}
+
+.padding-xxl {
+  padding: 2rem !important;
+}
+
+.padding-x-xl {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+
+.padding-x-m {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.uppercase-input {
+  text-transform: uppercase !important;
+}
+.uppercase-input input {
+  text-transform: uppercase !important;
+}
+
+.capitalize-input {
+  text-transform: capitalize !important;
+}
+.capitalize-input input {
+  text-transform: capitalize !important;
+}
+
+.box-shadow {
+  box-shadow: var(--sapContent_Shadow0) !important;
+}
+
+.radius-xl {
+  border-radius: 12px !important;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.card:hover,
+.card:focus {
+  box-shadow: var(--sapContent_Shadow0) !important; /* Clear the box shadow */
+}
+
+.sapFCard.sapFCardNoContent .sapFCardHeader.sapFCardHeaderMainPartOnly .sapFCardHeaderMainPart {
+  align-items: center !important;
+}
+
+#PageCarsDetails #Field_CarInformation_Left .sapMLabelInner, #PageCarsDetails #Field_CarInformation_Right .sapMLabelInner {
+  color: #131e29 !important;
+  justify-content: space-between !important;
+}
+#PageCarsDetails #Field_CarInformation_Left .sapMLabelInner .sapMLabelColonAndRequired, #PageCarsDetails #Field_CarInformation_Right .sapMLabelInner .sapMLabelColonAndRequired {
+  justify-content: end !important;
+}
+
+#FormCarsCreate .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormCarsDetails .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormCarDocumentCreate .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormCarDocumentDetails .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#BoxDetailDocument_Car .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormDocumentReportDetails .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}

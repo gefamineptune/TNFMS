@@ -1,0 +1,138 @@
+{
+	"id": "f77f0c1c-0148-4f02-a3de-86c4fe3f7847",
+	"createdAt": "2025-05-30T02:08:41.999Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"fieldName": "user_id",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": true,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_name",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_password",
+			"fieldType": "text",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_branch",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_department",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_role",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"fieldName": "user_status",
+			"fieldType": "smalltext",
+			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		}
+	],
+	"indices": [
+		{
+			"id": "f9dc1ecc-ae9c-4fe1-87a5-41e38413dffb",
+			"name": "IDX_7dbc2766e9cc0db24a248002dd",
+			"columns": [
+				{
+					"fieldName": "user_id",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": true,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		},
+		{
+			"id": "d8f69075-abd2-4027-b467-22ecab9f7cb4",
+			"name": "IDX_7b98cb55c47081824dddb62243",
+			"columns": [
+				{
+					"fieldName": "user_branch",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": false,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		},
+		{
+			"id": "5cdc7bc8-1587-4d2b-b37f-259053af54f4",
+			"name": "IDX_b73fffd56180706371425b81bc",
+			"columns": [
+				{
+					"fieldName": "user_department",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": false,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		},
+		{
+			"id": "854b1be6-a989-4d55-a899-b1439131b88a",
+			"name": "IDX_deb6cfca2f28e5884bd408f2f6",
+			"columns": [
+				{
+					"fieldName": "user_role",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": false,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		},
+		{
+			"id": "6e052246-f2f8-48b1-97a4-61911d862361",
+			"name": "IDX_759647fe8664d4c1507b33f062",
+			"columns": [
+				{
+					"fieldName": "user_status",
+					"fieldType": "smalltext",
+					"description": "",
+					"isUnique": false,
+					"isNullable": false
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_user",
+	"description": null,
+	"ver": "25.07.04.0917",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

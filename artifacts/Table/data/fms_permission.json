@@ -1,0 +1,38 @@
+[
+	{
+		"id": "c5183728-9c46-4347-a5a4-8e37b2b4b275",
+		"createdAt": "1748658419287",
+		"updatedAt": "1748852152118",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"permission_id": "P1",
+		"permission_name": "View"
+	},
+	{
+		"id": "66040b24-9aa0-46cd-bba8-f88e2237fbfe",
+		"createdAt": "1748658419287",
+		"updatedAt": "1748852152118",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"permission_id": "P3",
+		"permission_name": "Edit"
+	},
+	{
+		"id": "4d38c274-a8f3-4605-981e-bbfbc19815e5",
+		"createdAt": "1748658419287",
+		"updatedAt": "1748852152118",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"permission_id": "P2",
+		"permission_name": "Create"
+	},
+	{
+		"id": "39797bf6-0595-4e0b-9cb5-c7611667da2c",
+		"createdAt": "1748658419287",
+		"updatedAt": "1748852152118",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"permission_id": "P4",
+		"permission_name": "Delete"
+	}
+]

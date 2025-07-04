@@ -1,0 +1,82 @@
+[
+	{
+		"id": "f45302e0-88ee-4c98-a7fd-31bcccda91bc",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M7",
+		"menu_name": "System Parameter",
+		"menu_order": 7
+	},
+	{
+		"id": "d285df46-46b9-4484-90b3-bcb6d05c1466",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749094143094",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M2",
+		"menu_name": "Cars",
+		"menu_order": 2
+	},
+	{
+		"id": "b4cda956-fbf8-4c60-86f1-8cfdf477dec8",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M6",
+		"menu_name": "User and Role Access",
+		"menu_order": 6
+	},
+	{
+		"id": "adddef6e-858f-44f6-8309-85158c5809bb",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M3",
+		"menu_name": "Trip Report",
+		"menu_order": 3
+	},
+	{
+		"id": "4b3c3b2c-1a54-467c-836d-4d030b26d0ba",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M5",
+		"menu_name": "Document Processing Report",
+		"menu_order": 5
+	},
+	{
+		"id": "48f9653c-43a1-4452-a3fa-025b89a00946",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749094135036",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M1",
+		"menu_name": "Home Dashboard",
+		"menu_order": 1
+	},
+	{
+		"id": "135e26a6-8e3e-4c2e-b440-e7295303672e",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M4",
+		"menu_name": "Maintenance Report",
+		"menu_order": 4
+	},
+	{
+		"id": "02f9f24d-16a3-44e8-a374-9f8245126c61",
+		"createdAt": "1748658186927",
+		"updatedAt": "1749093989273",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"menu_id": "M8",
+		"menu_name": "Master Data",
+		"menu_order": 8
+	}
+]

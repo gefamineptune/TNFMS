@@ -1,0 +1,6 @@
+var maxIndex = (paginationBarCarFuel.pagination.count / paginationBarCarFuel.pagination.take);
+maxIndex = Math.ceil(maxIndex);
+
+paginationBarCarFuel.pagination.index = maxIndex - 1;
+paginationBarCarFuel.run(true); 
+paginationBarCarFuel.handlePagination();

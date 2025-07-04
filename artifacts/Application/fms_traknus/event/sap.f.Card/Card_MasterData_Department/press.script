@@ -1,0 +1,6 @@
+await apiGET_Department();
+
+FormDepartmentCreate.setVisible(false);
+FormDepartmentDetails.setVisible(false);
+
+NavContainer.to(PageDepartment);

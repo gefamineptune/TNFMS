@@ -1,0 +1,6 @@
+await apiGET_Branch();
+
+FormBranchCreate.setVisible(false);
+FormBranchDetails.setVisible(false);
+
+NavContainer.to(PageBranch);

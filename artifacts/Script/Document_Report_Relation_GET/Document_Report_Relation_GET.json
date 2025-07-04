@@ -1,0 +1,46 @@
+{
+	"id": "4b8d20af-8b3c-4773-9ec5-6b0d575d5d37",
+	"createdAt": "2025-06-26T08:12:00.882Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "ae3974f4-5397-4239-a426-c45dcae00d7f",
+			"name": "fms_car",
+			"contextname": "fms_car"
+		},
+		{
+			"id": "2f21cd1a-83e7-49ca-a694-a672bafd10f2",
+			"name": "fms_car_brand",
+			"contextname": "fms_car_brand"
+		},
+		{
+			"id": "42ff2c86-61a5-433c-bbeb-29f6cb70fa67",
+			"name": "fms_car_document",
+			"contextname": "fms_car_document"
+		},
+		{
+			"id": "9e5a2d7c-54b5-4ae0-8815-a9456ed82223",
+			"name": "fms_car_type",
+			"contextname": "fms_car_type"
+		},
+		{
+			"id": "42ff2c86-61a5-433c-bbeb-29f6cb70fa67",
+			"name": "fms_document_report",
+			"contextname": "fms_document_report"
+		}
+	],
+	"apis": [],
+	"name": "Document_Report_Relation_GET",
+	"ver": "25.06.26.0839",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

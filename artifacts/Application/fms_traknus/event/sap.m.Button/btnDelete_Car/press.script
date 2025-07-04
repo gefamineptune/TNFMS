@@ -1,0 +1,9 @@
+// Get selected row data
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+// Set data to delete confirmation dialog
+modelDialogDelete_Car.setData(data);
+DialogDelete_Car.open();

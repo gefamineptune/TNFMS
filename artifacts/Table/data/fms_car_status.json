@@ -1,0 +1,65 @@
+[
+	{
+		"id": "e8977c52-acac-413e-92e1-f04c44238983",
+		"createdAt": "1749717387324",
+		"updatedAt": "1749717387324",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S3",
+		"status_label": "In Use"
+	},
+	{
+		"id": "d132a270-f4ad-47a3-ac8a-02654ec6f047",
+		"createdAt": "1748150047875",
+		"updatedAt": "1748150047875",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "A1",
+		"status_label": "Available"
+	},
+	{
+		"id": "c3bd4b16-d8af-4b5f-950e-9f3bac4995e1",
+		"createdAt": "1749717411937",
+		"updatedAt": "1749717411937",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S5",
+		"status_label": "On Check"
+	},
+	{
+		"id": "b2cad214-e999-4554-910d-5e81fe859f98",
+		"createdAt": "1748150047875",
+		"updatedAt": "1748150047875",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "A2",
+		"status_label": "Not Available"
+	},
+	{
+		"id": "a358545a-7397-4759-8772-dfe038b3bb03",
+		"createdAt": "1749717376643",
+		"updatedAt": "1749717376643",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S2",
+		"status_label": "Under Document Processing"
+	},
+	{
+		"id": "6ecc7f1b-110e-40a7-83be-dc12f237ca40",
+		"createdAt": "1749717361671",
+		"updatedAt": "1749717361671",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S1",
+		"status_label": "Under Maintenance"
+	},
+	{
+		"id": "3ea40b07-b7ec-458f-93af-a183c73ad722",
+		"createdAt": "1749717393782",
+		"updatedAt": "1749717393782",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S4",
+		"status_label": "Booked"
+	}
+]

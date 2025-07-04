@@ -1,0 +1,44 @@
+{
+	"id": "21d70181-cbf7-44f2-bb31-00d4430d1544",
+	"createdAt": "2025-06-25T07:56:11.932Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "37cab87e-1efd-4cd2-8b0a-46bbedf3a32c",
+			"fieldName": "condition_type_id",
+			"fieldType": "smalltext",
+			"isUnique": true
+		},
+		{
+			"id": "b0e9f463-3c4b-426e-9ed3-df5cd7d8fa92",
+			"fieldName": "condition_type_name",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [
+		{
+			"id": "18e5827b-c19a-4f2a-e71c-2ca29b83b263",
+			"name": "IDX_5b243dda3313b8374f20cabb8e",
+			"columns": [
+				{
+					"id": "37cab87e-1efd-4cd2-8b0a-46bbedf3a32c",
+					"fieldName": "condition_type_id",
+					"fieldType": "smalltext",
+					"isUnique": true
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_car_condition_type",
+	"description": null,
+	"ver": "25.07.04.0915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

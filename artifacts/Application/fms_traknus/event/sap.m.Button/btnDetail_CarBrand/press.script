@@ -1,0 +1,11 @@
+// Get selected row data
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelFormCarBrandDetails.setData(data);
+
+FormCarBrandDetails.setVisible(true);
+
+NavContainer.to(PageCarBrandDetails);

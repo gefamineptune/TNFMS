@@ -1,0 +1,49 @@
+// List: get selected row
+// Replace yourField with fieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+// modelFormCarsDetails.setData(data);
+modelField_CarInformation_Left.setData(data);
+modelField_CarInformation_Right.setData(data);
+
+var optionsDocument = {
+    parameters: {
+        where: JSON.stringify({"document_car_id": data.fms_car_car_id}),
+    },
+}
+var DocumentReport = await apiGET_DocumentReport(optionsDocument);
+modelTableCarDocument.setData(DocumentReport);
+
+// modelinFormCarsDetailscar_acquisition_type.setData(await apiGET_CarAcquisition());
+// modelinFormCarsDetailscar_brand.setData(await apiGET_CarBrand());
+// modelinFormCarsDetailscar_type.setData(await apiGET_CarType());
+// modelinFormCarsDetailscar_fuel.setData(await apiGET_CarFuel());
+// modelinFormCarsDetailscar_category.setData(await apiGET_CarCategory());
+// modelinFormCarsDetailscar_branch.setData(await apiGET_Branch());
+// modelinFormCarsDetailscar_ownership.setData(await apiGET_CarOwnership());
+// modelinFormCarsDetailscar_remarks.setData(await apiGET_CarRemarks());
+// modelinFormCarsDetailscar_status.setData(await apiGET_CarStatus());
+
+// console.log(data.car_image);
+var fileName = data.fms_car_car_image;
+var removedSpaces = fileName.slice(0, -1);
+var url = window.location.origin + "/media/root/FMS/Cars/" + removedSpaces;
+Img_CarInformation.setSrc(encodeURI(url));
+
+// inFormCarsDetailscar_image.setCarImage(data.fms_car_car_image, encodeURI(url));
+// inFormCarsDetailscar_acquisition_type.setSelectedKey(data.fms_car_car_acquisition_type);
+// inFormCarsDetailscar_brand.setSelectedKey(data.fms_car_car_brand);
+// inFormCarsDetailscar_type.setSelectedKey(data.fms_car_car_type);
+// inFormCarsDetailscar_category.setSelectedKey(data.fms_car_car_category);
+// inFormCarsDetailscar_branch.setSelectedKey(data.fms_car_car_branch);
+// inFormCarsDetailscar_ownership.setSelectedKey(data.fms_car_ownership_ownership_id);
+// inFormCarsDetailscar_remarks.setSelectedKey(data.fms_car_remarks_remarks_id);
+// inFormCarsDetailscar_status.setSelectedKey(data.fms_car_status_status_id);
+
+BoxFormCarsCreate.setVisible(false);
+BoxFormCarsDetails.setVisible(true);
+
+NavContainer.to(PageCarsDetails);

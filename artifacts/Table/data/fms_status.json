@@ -1,0 +1,20 @@
+[
+	{
+		"id": "44c06c61-6c85-4999-97f0-9e2a8257a666",
+		"createdAt": "1748241550268",
+		"updatedAt": "1748241550268",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S1",
+		"status_label": "Active"
+	},
+	{
+		"id": "1725684c-b146-4eb8-9923-b26dca7897d4",
+		"createdAt": "1748241550268",
+		"updatedAt": "1748241550268",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "S2",
+		"status_label": "Inactive"
+	}
+]

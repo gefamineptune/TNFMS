@@ -1,0 +1,47 @@
+[
+	{
+		"id": "b85c9271-98c6-48fe-b20b-2c2cb7fdba0e",
+		"createdAt": "1748170074651",
+		"updatedAt": "1748170074651",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_id": "T1",
+		"type_name": "Avanza"
+	},
+	{
+		"id": "a4db50ec-e416-4f55-9127-3eff14dce404",
+		"createdAt": "1748170074651",
+		"updatedAt": "1748170074651",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_id": "T3",
+		"type_name": "Sealion 7"
+	},
+	{
+		"id": "3030dc04-09a8-4259-b016-0fc163de5d46",
+		"createdAt": "1748170074651",
+		"updatedAt": "1748170074651",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_id": "T4",
+		"type_name": "Seal"
+	},
+	{
+		"id": "06050c6f-a259-42ba-b347-27a7d0aa72e3",
+		"createdAt": "1748170074651",
+		"updatedAt": "1748170074651",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_id": "T2",
+		"type_name": "Rush"
+	},
+	{
+		"id": "0060d079-d2dc-47a1-b546-15677daf161a",
+		"createdAt": "1748170074651",
+		"updatedAt": "1748170074651",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"type_id": "T5",
+		"type_name": "Innova Zenix"
+	}
+]

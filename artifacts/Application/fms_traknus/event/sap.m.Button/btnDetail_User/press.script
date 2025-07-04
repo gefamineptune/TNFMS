@@ -1,0 +1,24 @@
+// Replace yourField with fieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelFormUserDetails.setData(data);
+
+modelinFormUserDetailsuser_branch.setData(await apiGET_Branch());
+modelinFormUserDetailsuser_department.setData(await apiGET_Department());
+modelinFormUserDetailsuser_role.setData(await apiGET_Role());
+modelinFormUserDetailsuser_access.setData(await apiGET_Access());
+modelinFormUserDetailsuser_status.setData(await apiGET_Status());
+
+inFormUserDetailsuser_password.setValue(decryptPassword(data.fms_user_user_password));
+inFormUserDetailsuser_branch.setSelectedKey(data.fms_user_user_branch);
+inFormUserDetailsuser_department.setSelectedKey(data.fms_user_user_department);
+inFormUserDetailsuser_role.setSelectedKey(data.fms_user_user_role);
+inFormUserDetailsuser_access.setSelectedKey(data.fms_role_role_access);
+inFormUserDetailsuser_status.setSelectedKey(data.fms_user_user_status);
+
+FormUserDetails.setVisible(true);
+
+NavContainer.to(PageUserDetails);

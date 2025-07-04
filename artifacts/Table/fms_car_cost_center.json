@@ -1,0 +1,44 @@
+{
+	"id": "f3ab2280-77b5-426d-82ac-1880ab51f729",
+	"createdAt": "2025-06-26T01:22:05.421Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "1e74daa1-f49d-495c-bc69-ab96f864dac0",
+			"fieldName": "cost_center_id",
+			"fieldType": "smalltext",
+			"isUnique": true
+		},
+		{
+			"id": "61c60d43-46ea-477c-b0e8-e22794e2c0a3",
+			"fieldName": "cost_center_label",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [
+		{
+			"id": "169a4ab3-1b02-44aa-dbbd-528d5321f9d0",
+			"name": "IDX_9621e50ae29018bfbe8971714d",
+			"columns": [
+				{
+					"id": "1e74daa1-f49d-495c-bc69-ab96f864dac0",
+					"fieldName": "cost_center_id",
+					"fieldType": "smalltext",
+					"isUnique": true
+				}
+			],
+			"isUnique": false
+		}
+	],
+	"foreignKeys": [],
+	"name": "fms_car_cost_center",
+	"description": null,
+	"ver": "25.07.04.0915",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

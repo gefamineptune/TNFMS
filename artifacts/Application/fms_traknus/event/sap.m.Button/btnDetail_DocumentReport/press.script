@@ -1,0 +1,12 @@
+// Replace yourField with fieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelBoxDetailDocument_Car.setData(data);
+modelFormDocumentReportDetails.setData(data);
+
+FormDocumentReportDetails.setVisible(true);
+
+NavContainer.to(PageDocumentReportDetails);

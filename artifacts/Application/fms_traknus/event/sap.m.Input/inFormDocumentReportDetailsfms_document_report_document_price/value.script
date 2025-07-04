@@ -1,0 +1,7 @@
+// Check if value has a valid value before formatting
+if (typeof fms_document_report_document_price === "undefined" || fms_document_report_document_price === null || fms_document_report_document_price === "") { 
+    return; 
+}  
+// Format the value using the Formatter utility
+var formattedText = formatAngkaDenganTitik(fms_document_report_document_price); 
+return formattedText;

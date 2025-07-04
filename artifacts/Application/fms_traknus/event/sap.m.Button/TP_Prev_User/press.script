@@ -1,0 +1,3 @@
+paginationBarEmployee.pagination.index--;
+paginationBarEmployee.run(true); 
+paginationBarEmployee.handlePagination();

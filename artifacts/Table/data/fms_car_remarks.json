@@ -1,0 +1,47 @@
+[
+	{
+		"id": "6f5b3e77-61ef-45c4-b035-575f47684717",
+		"createdAt": "1748150306464",
+		"updatedAt": "1748150306464",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"remarks_id": "R5",
+		"remarks_label": "Under Document Processing"
+	},
+	{
+		"id": "5e2c58ac-dc83-4ca5-8d94-c0e4e42206a5",
+		"createdAt": "1748150306464",
+		"updatedAt": "1748150306464",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"remarks_id": "R1",
+		"remarks_label": "Under Maintenance"
+	},
+	{
+		"id": "39c09d8d-48d3-4ab9-bc08-e6b14cd10fe1",
+		"createdAt": "1748150306464",
+		"updatedAt": "1748150306464",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"remarks_id": "R2",
+		"remarks_label": "In Use"
+	},
+	{
+		"id": "30753af1-dfd9-47ec-a260-31f8e5c21e3b",
+		"createdAt": "1748150306464",
+		"updatedAt": "1748150306464",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"remarks_id": "R4",
+		"remarks_label": "On Check"
+	},
+	{
+		"id": "211c271a-42fe-446a-be8f-b75cde7ac6bd",
+		"createdAt": "1748150306464",
+		"updatedAt": "1748150306464",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"remarks_id": "R3",
+		"remarks_label": "Booked"
+	}
+]

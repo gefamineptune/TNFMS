@@ -1,0 +1,15 @@
+[
+	{
+		"id": "cdb0baad-7bec-4eb9-a223-a94d4db8c668",
+		"createdAt": "1749521830776",
+		"updatedAt": "1749701432349",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"periodical_service_1": "30000",
+		"periodical_service_2": "6",
+		"reminder_periodical_service_1": "50000",
+		"loan_deduction_weekday": "10000",
+		"loan_deduction_weekend": "30000",
+		"loan_deduction_national_holiday": "80000"
+	}
+]
