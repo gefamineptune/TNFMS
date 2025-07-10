@@ -1,0 +1,359 @@
+{
+	"id": "b191acbd-327f-40da-828b-7176de587507",
+	"createdAt": "2025-07-10T03:24:20.646Z",
+	"createdBy": "admin",
+	"auth": [],
+	"endpoints": [],
+	"paths": [
+		{
+			"id": "b8ff673a-62cc-43d6-b8fe-afcf66b36d93",
+			"path": "/fms_maintenance_report",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				},
+				{
+					"name": "select",
+					"description": "fieldName1, fieldname2, fieldName3"
+				},
+				{
+					"name": "take",
+					"description": "Limit (paginated) - max number of entities that should be taken"
+				},
+				{
+					"name": "skip",
+					"description": "Offset (paginated) from where entities should be taken"
+				},
+				{
+					"name": "order",
+					"description": "{\"fieldName1\": \"ASC\", \"fieldName2\": \"DESC\"}"
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_maintenance_report"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "d783408c-9282-4941-9b16-131881d5144e",
+			"path": "/fms_maintenance_report",
+			"method": "PUT",
+			"headers": [],
+			"parameters": [],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_maintenance_report"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_maintenance_report"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "0c5361f0-8fc6-416e-9ac6-50ae5d1b2c27",
+			"path": "/fms_maintenance_report",
+			"method": "POST",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [
+				{
+					"objectTyoe": "array",
+					"name": "fms_maintenance_report"
+				}
+			],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_maintenance_report"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "863d8ce1-1db6-42ee-b539-5e43d4caba23",
+			"path": "/fms_maintenance_report",
+			"method": "DELETE",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"example": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "array",
+							"name": "fms_maintenance_report"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "5a92cea9-0792-4e6d-a2db-c4ba1e9389d7",
+			"path": "/fms_maintenance_report/count",
+			"method": "GET",
+			"headers": [],
+			"parameters": [
+				{
+					"name": "where",
+					"description": [
+						"==OBJECT STRING==",
+						"{ \"fieldName\": \"value\"}  or { \"fieldName\": \"Not(value)\"} or { \"fieldName\": \"Between(1,10)\"}",
+						"            or {fieldName: In([\"value1\", \"value2\"])}",
+						"            Other operators - LessThan(value), LessThanOrEqual(value), MoreThan(value), MoreThanOrEqual(value), Like(value), Any(value), IsNull(value), Raw(value)"
+					]
+				}
+			],
+			"content": [],
+			"responses": [
+				{
+					"status": 200,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "count"
+						}
+					]
+				},
+				{
+					"status": 400,
+					"headers": [],
+					"content": [
+						{
+							"objectType": "object",
+							"name": "Error"
+						}
+					]
+				}
+			]
+		}
+	],
+	"definitions": [
+		{
+			"id": "07037d02-654d-4446-bc5f-902d86bdfba6",
+			"name": "fms_maintenance_report",
+			"properties": [
+				{
+					"id": "fc802749-f157-4e9f-95d9-46408c3db4cc",
+					"parent": "",
+					"name": "id",
+					"description": "Unique record ID",
+					"objectType": "string"
+				},
+				{
+					"id": "83428574-9150-410f-b965-9c247e599fec",
+					"parent": "",
+					"name": "maintenance_item",
+					"objectType": "string"
+				},
+				{
+					"id": "aadcef98-14e3-40aa-9094-732584d9d6ce",
+					"parent": "",
+					"name": "maintenance_date",
+					"objectType": "string"
+				},
+				{
+					"id": "1295aaf3-3ebf-4c44-bdcf-98283fae3059",
+					"parent": "",
+					"name": "maintenance_vehicle_km",
+					"objectType": "integer"
+				},
+				{
+					"id": "2257cab5-09b4-43bc-adaf-106a82bb809a",
+					"parent": "",
+					"name": "maintenance_price",
+					"objectType": "integer"
+				},
+				{
+					"id": "5ed72c98-8728-416d-81a5-83e125f34b31",
+					"parent": "",
+					"name": "maintenance_remarks",
+					"objectType": "string"
+				},
+				{
+					"id": "b190ddc3-e1a0-403a-9a60-d820659fddbd",
+					"parent": "",
+					"name": "maintenance_car_id",
+					"objectType": "string"
+				},
+				{
+					"id": "bf3c08fb-5842-4fc7-abae-5a9486a1d82d",
+					"parent": "",
+					"name": "createdAt",
+					"description": "Date when record was created",
+					"objectType": "number"
+				},
+				{
+					"id": "c91cadf8-c4f6-4a05-8c9c-e73b482578de",
+					"parent": "",
+					"name": "createdBy",
+					"description": "Created by",
+					"objectType": "string"
+				},
+				{
+					"id": "fe305aab-50b9-488e-ba4b-07844d328ad2",
+					"parent": "",
+					"name": "updatedAt",
+					"description": "Date when record was updated",
+					"objectType": "number"
+				},
+				{
+					"id": "1b589f85-25eb-4739-b434-df5a2041af5a",
+					"parent": "",
+					"name": "updatedBy",
+					"description": "Updated by",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "5cbcd499-d527-48a4-883e-80a86b09d27b",
+			"name": "Error",
+			"properties": [
+				{
+					"id": "b121cd01-1352-4e10-a7c6-8cade56eca52",
+					"parent": "",
+					"name": "status",
+					"objectType": "string"
+				},
+				{
+					"id": "fa067f1f-dcb0-4727-a49c-c708307def54",
+					"parent": "",
+					"name": "message",
+					"objectType": "string"
+				}
+			]
+		},
+		{
+			"id": "c871882d-3db8-4664-8e3a-572454723c83",
+			"name": "count",
+			"properties": [
+				{
+					"id": "8dfee2b3-f4c6-46ec-ab0d-836da62d4067",
+					"parent": "",
+					"name": "count",
+					"objectType": "number"
+				}
+			]
+		}
+	],
+	"documentation": [],
+	"name": "fms_maintenance_report",
+	"endpoint": "/api/entity",
+	"ver": "25.07.10.0324",
+	"version": null,
+	"description": null,
+	"mediaType": "application/json",
+	"securitySchemes": null,
+	"swaggerURI": null,
+	"swaggerSystem": null,
+	"apiType": "table",
+	"about": null,
+	"enableProxy": false,
+	"forwardProxy": null,
+	"restrictAccess": false,
+	"enableTrace": false,
+	"enableIDE": true,
+	"internalAPI": false,
+	"isPublic": false,
+	"tlsAllowUntrusted": false,
+	"useOwnProcess": false,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"apiGroup": null,
+	"apiFormat": 0,
+	"roles": []
+}

@@ -232,49 +232,109 @@
 					"parent": "",
 					"name": "id",
 					"description": "Unique record ID",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "49efbf38-1286-4a2c-9f15-b15ed5b72ca0",
 					"parent": "",
 					"name": "brand_id",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "040d8888-ab64-46ef-a2ea-5975fc220178",
 					"parent": "",
 					"name": "brand_name",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
+				},
+				{
+					"id": "30daefdf-5bc6-4fba-c80f-2aedf1096b7e",
+					"name": "brand_status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "e5732e79-eb6b-44eb-b716-4e735c6a3886",
 					"parent": "",
 					"name": "createdAt",
 					"description": "Date when record was created",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "6734e3cf-bf4b-4381-b0dd-7736178a1946",
 					"parent": "",
 					"name": "createdBy",
 					"description": "Created by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "553540bc-a9a0-4054-9497-9292504b19da",
 					"parent": "",
 					"name": "updatedAt",
 					"description": "Date when record was updated",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				},
 				{
 					"id": "f182e35f-09b8-4b7a-bc6c-2447d3335348",
 					"parent": "",
 					"name": "updatedBy",
 					"description": "Updated by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true,
+					"children": []
 				}
 			]
 		},
@@ -312,7 +372,7 @@
 	"documentation": [],
 	"name": "fms_car_brand",
 	"endpoint": "/api/entity",
-	"ver": "25.05.25.1056",
+	"ver": "25.07.08.0756",
 	"version": null,
 	"description": null,
 	"mediaType": "application/json",

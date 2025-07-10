@@ -7,4 +7,6 @@ inFormCarCategoryCreatecategory_label.setValueState("None");
 FormCarCategoryCreate.setVisible(false);
 FormCarCategoryDetails.setVisible(false);
 
+await apiGET_CarCategory();
+
 NavContainer.to(PageCarCategory);

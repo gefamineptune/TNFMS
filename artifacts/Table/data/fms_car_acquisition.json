@@ -1,20 +1,22 @@
 [
 	{
-		"id": "ce1af9d7-a43b-40e4-acab-dd9d9cf5a22a",
-		"createdAt": "1748171201282",
-		"updatedAt": "1748171201282",
+		"id": "d6f2348e-dd96-45b6-b13d-16ef5bf2877b",
+		"createdAt": "1751869355732",
+		"updatedAt": "1751960421322",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"acquisition_id": "AC1",
-		"acquisition_label": "Asset"
+		"acquisition_id": "CRACQ9302",
+		"acquisition_label": "Rent",
+		"acquisition_status": "STS6085"
 	},
 	{
-		"id": "7be4690d-1473-462a-ae30-48a0c80034fc",
-		"createdAt": "1748171201282",
-		"updatedAt": "1748171201282",
+		"id": "7afb71d0-2463-4b78-a241-370228908ed0",
+		"createdAt": "1751869349910",
+		"updatedAt": "1751960421322",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"acquisition_id": "AC2",
-		"acquisition_label": "Rent"
+		"acquisition_id": "CRACQ72",
+		"acquisition_label": "Asset",
+		"acquisition_status": "STS6085"
 	}
 ]

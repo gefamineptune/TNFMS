@@ -1,20 +1,35 @@
 [
 	{
-		"id": "74436520-e71a-4def-af61-6c991765ede4",
-		"createdAt": "1748169688988",
-		"updatedAt": "1748169688988",
+		"id": "b002490a-5198-4178-802b-e72471448b5e",
+		"createdAt": "1751870800330",
+		"updatedAt": "1751962071426",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"fuel_id": "F1",
-		"fuel_label": "Bensin"
+		"fuel_id": "CRFL4352",
+		"fuel_type": "Bensin",
+		"fuel_subtype": "Pertamax",
+		"fuel_status": "STS6085"
 	},
 	{
-		"id": "28bdddc8-e962-4ba6-af72-989770d9f942",
-		"createdAt": "1749003107913",
-		"updatedAt": "1749003107913",
+		"id": "4bb127d6-eb31-448d-ac35-79b825eb0018",
+		"createdAt": "1751870640994",
+		"updatedAt": "1751962071426",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"fuel_id": "F2",
-		"fuel_label": "Solar"
+		"fuel_id": "CRFL2330",
+		"fuel_type": "Listrik",
+		"fuel_subtype": "-",
+		"fuel_status": "STS6085"
+	},
+	{
+		"id": "03341028-9c7f-4b29-adb1-961094999763",
+		"createdAt": "1751870789495",
+		"updatedAt": "1751962071426",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"fuel_id": "CRFL7488",
+		"fuel_type": "Bensin",
+		"fuel_subtype": "Pertalite",
+		"fuel_status": "STS6085"
 	}
 ]

@@ -1,6 +1,7 @@
 async function CarStatus_Create(){
     var status_id = inFormCarStatusCreatestatus_id;
     var status_label = inFormCarStatusCreatestatus_label;
+    var status_status = inFormCarStatusCreatestatus_status;
 
     if(status_id.getValue() === ""){
         status_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function CarStatus_Create(){
     } else {
         status_label.setValueState("None");
     }
+    if(status_status.getSelectedKey() === ""){
+        status_status.setValueState("Error");
+        status_status.setValueStateText("Please select status");
+        sap.m.MessageToast.show(
+            `Please provide status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        status_status.setValueState("None");
+    }
 
     // First check if status_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function CarStatus_Create(){
             data: {
                 status_id: status_id.getValue().toUpperCase(),
                 status_label: status_label.getValue(),
+                status_status: status_status.getSelectedKey(),
             },
         };
         await apiPUT_CarStatus(options);
@@ -65,6 +81,7 @@ async function CarStatus_Create(){
 
         inFormCarStatusCreatestatus_id.setValue("");
         inFormCarStatusCreatestatus_label.setValue("");
+        inFormCarStatusCreatestatus_status.setSelectedKey("");
 
         FormCarStatusCreate.setVisible(false);
         FormCarStatusDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function CarStatus_Update(){
             id: modelFormCarStatusDetails.getData().id,
             status_id: inFormCarStatusDetailsstatus_id.getValue().toUpperCase(),
             status_label: inFormCarStatusDetailsstatus_label.getValue(),
+            status_status: inFormCarStatusDetailsstatus_status.getSelectedKey(),
         },
     };
     await apiPOST_CarStatus(options);

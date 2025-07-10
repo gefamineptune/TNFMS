@@ -7,4 +7,6 @@ inFormBranchCreatebranch_label.setValueState("None");
 FormBranchCreate.setVisible(false);
 FormBranchDetails.setVisible(false);
 
+await apiGET_Branch();
+
 NavContainer.to(PageBranch);

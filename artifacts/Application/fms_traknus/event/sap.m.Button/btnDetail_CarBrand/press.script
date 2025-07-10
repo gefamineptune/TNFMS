@@ -6,6 +6,10 @@ const data = context.getObject();
 
 modelFormCarBrandDetails.setData(data);
 
+modelinFormCarBrandDetailsbrand_status.setData(await apiGET_Status());
+
+inFormCarBrandDetailsbrand_status.setSelectedKey(data.brand_status);
+
 FormCarBrandDetails.setVisible(true);
 
 NavContainer.to(PageCarBrandDetails);

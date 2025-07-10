@@ -9,3 +9,4 @@
 
 // Log the duration to the console
 // console.log(`Script execution time: ${duration} milliseconds`);
+

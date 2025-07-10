@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "brand_name",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "8bf995c8-ad25-4e53-abd7-c57d56564fda",
+			"fieldName": "brand_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_brand",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.08.0757",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

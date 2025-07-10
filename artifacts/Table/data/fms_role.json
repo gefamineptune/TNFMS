@@ -1,35 +1,13 @@
 [
 	{
-		"id": "d5a29f86-8794-42a3-b3da-fd3c9fa544af",
-		"createdAt": "1750734202030",
-		"updatedAt": "1750734202030",
+		"id": "433e855f-3207-4bf5-b23a-4085cb11dd7b",
+		"createdAt": "1751873637629",
+		"updatedAt": "1751873637629",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"role_id": "R1",
-		"role_label": "Admin",
-		"role_access": "ACS2",
-		"role_status": "S1"
-	},
-	{
-		"id": "7f3fa273-cf8e-47d1-89e6-efcbaed7c279",
-		"createdAt": "1750734938551",
-		"updatedAt": "1750734938551",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"role_id": "R2",
-		"role_label": "Employee",
-		"role_access": "ACS1",
-		"role_status": "S1"
-	},
-	{
-		"id": "53d036ed-1e89-4208-a822-4eee4270adae",
-		"createdAt": "1750735122606",
-		"updatedAt": "1750735122606",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"role_id": "R3",
-		"role_label": "User",
-		"role_access": "ACS1",
-		"role_status": "S1"
+		"role_id": "RID3827",
+		"role_label": "Admin CMS",
+		"role_access": "ACS5144",
+		"role_status": "STS6085"
 	}
 ]

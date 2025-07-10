@@ -1,6 +1,0 @@
-await apiGET_CarFuel();
-
-FormCarFuelCreate.setVisible(false);
-FormCarFuelDetails.setVisible(false);
-
-NavContainer.to(PageCarFuel);

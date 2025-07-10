@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "department_name",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "5de6cff4-279b-46f8-8df3-4ef0d05c2f04",
+			"fieldName": "department_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_department",
 	"description": null,
-	"ver": "25.07.04.0916",
+	"ver": "25.07.08.0832",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

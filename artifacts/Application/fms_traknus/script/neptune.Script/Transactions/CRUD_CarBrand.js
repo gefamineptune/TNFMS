@@ -1,6 +1,7 @@
 async function CarBrand_Create(){
     var brand_id = inFormCarBrandCreatebrand_id;
     var brand_name = inFormCarBrandCreatebrand_name;
+    var brand_status = inFormCarBrandCreatebrand_status;
 
     if(brand_id.getValue() === ""){
         brand_id.setValueState("Error");
@@ -31,6 +32,20 @@ async function CarBrand_Create(){
     } else {
         brand_name.setValueState("None");
     }
+    if(brand_status.getSelectedKey() === ""){
+        brand_status.setValueState("Error");
+        brand_status.setValueStateText("Please select brand status");
+        sap.m.MessageToast.show(
+            `Please provide brand status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        brand_status.setValueState("None");
+    }
 
     // First check if brand_id is unique before creating
     var options = {
@@ -58,6 +73,7 @@ async function CarBrand_Create(){
             data: {
                 brand_id: brand_id.getValue().toUpperCase(),
                 brand_name: brand_name.getValue(),
+                brand_status: brand_status.getSelectedKey(),
             },
         };
         await apiPUT_CarBrand(options);
@@ -66,6 +82,7 @@ async function CarBrand_Create(){
 
         inFormCarBrandCreatebrand_id.setValue("");
         inFormCarBrandCreatebrand_name.setValue("");
+        inFormCarBrandCreatebrand_status.setSelectedKey("");
 
         FormCarBrandCreate.setVisible(false);
         FormCarBrandDetails.setVisible(false);
@@ -91,6 +108,7 @@ async function CarBrand_Update(){
             id: modelFormCarBrandDetails.getData().id,
             brand_id: inFormCarBrandDetailsbrand_id.getValue().toUpperCase(),
             brand_name: inFormCarBrandDetailsbrand_name.getValue(),
+            brand_status: inFormCarBrandDetailsbrand_status.getSelectedKey(),
         },
     };
     await apiPOST_CarBrand(options);

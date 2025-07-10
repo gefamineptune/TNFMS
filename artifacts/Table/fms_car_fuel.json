@@ -11,9 +11,23 @@
 			"isNullable": false
 		},
 		{
-			"fieldName": "fuel_label",
-			"fieldType": "text",
+			"fieldName": "fuel_type",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "eda61707-3585-4144-8117-a2b34d7e19ce",
+			"fieldName": "fuel_subtype",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "6592e3da-a39d-407c-89ad-bb505ee352d4",
+			"fieldName": "fuel_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +51,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_fuel",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.08.0808",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

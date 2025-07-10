@@ -1,6 +1,7 @@
 async function CarAcquisition_Create(){
     var acquisition_id = inFormCarAcquisitionCreateacquisition_id;
     var acquisition_label = inFormCarAcquisitionCreateacquisition_label;
+    var acquisition_status = inFormCarAcquisitionCreateacquisition_status;
 
     if(acquisition_id.getValue() === ""){
         acquisition_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function CarAcquisition_Create(){
     } else {
         acquisition_label.setValueState("None");
     }
+    if(acquisition_status.getSelectedKey() === ""){
+        acquisition_status.setValueState("Error");
+        acquisition_status.setValueStateText("Please select acquisition status");
+        sap.m.MessageToast.show(
+            `Please provide acquisition status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        acquisition_status.setValueState("None");
+    }
 
     // First check if acquisition_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function CarAcquisition_Create(){
             data: {
                 acquisition_id: acquisition_id.getValue().toUpperCase(),
                 acquisition_label: acquisition_label.getValue(),
+                acquisition_status: acquisition_status.getSelectedKey(),
             },
         };
         await apiPUT_CarAcquisition(options);
@@ -65,6 +81,7 @@ async function CarAcquisition_Create(){
 
         inFormCarAcquisitionCreateacquisition_id.setValue("");
         inFormCarAcquisitionCreateacquisition_label.setValue("");
+        inFormCarAcquisitionCreateacquisition_status.setSelectedKey("");
 
         FormCarAcquisitionCreate.setVisible(false);
         FormCarAcquisitionDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function CarAcquisition_Update(){
             id: modelFormCarAcquisitionDetails.getData().id,
             acquisition_id: inFormCarAcquisitionDetailsacquisition_id.getValue().toUpperCase(),
             acquisition_label: inFormCarAcquisitionDetailsacquisition_label.getValue(),
+            acquisition_status: inFormCarAcquisitionDetailsacquisition_status.getSelectedKey(),
         },
     };
     await apiPOST_CarAcquisition(options);

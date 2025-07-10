@@ -1,6 +1,7 @@
 async function Branch_Create(){
     var branch_id = inFormBranchCreatebranch_id;
     var branch_label = inFormBranchCreatebranch_label;
+    var branch_status = inFormBranchCreatebranch_status;
 
     if(branch_id.getValue() === ""){
         branch_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function Branch_Create(){
     } else {
         branch_label.setValueState("None");
     }
+    if(branch_status.getSelectedKey() === ""){
+        branch_status.setValueState("Error");
+        branch_status.setValueStateText("Please select branch status");
+        sap.m.MessageToast.show(
+            `Please provide branch status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        branch_status.setValueState("None");
+    }
 
     // First check if branch_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function Branch_Create(){
             data: {
                 branch_id: branch_id.getValue().toUpperCase(),
                 branch_label: branch_label.getValue(),
+                branch_status: branch_status.getSelectedKey(),
             },
         };
         await apiPUT_Branch(options);
@@ -65,6 +81,7 @@ async function Branch_Create(){
 
         inFormBranchCreatebranch_id.setValue("");
         inFormBranchCreatebranch_label.setValue("");
+        inFormBranchCreatebranch_status.setSelectedKey("");
 
         FormBranchCreate.setVisible(false);
         FormBranchDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function Branch_Update(){
             id: modelFormBranchDetails.getData().id,
             branch_id: inFormBranchDetailsbranch_id.getValue().toUpperCase(),
             branch_label: inFormBranchDetailsbranch_label.getValue(),
+            branch_status: inFormBranchDetailsbranch_status.getSelectedKey(),
         },
     };
     await apiPOST_Branch(options);

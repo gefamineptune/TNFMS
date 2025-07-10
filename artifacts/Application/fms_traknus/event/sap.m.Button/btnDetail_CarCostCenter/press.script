@@ -1,0 +1,15 @@
+// Get selected row data
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelFormCarCostCenterDetails.setData(data);
+
+modelinFormCarCostCenterDetailscost_center_status.setData(await apiGET_Status());
+
+inFormCarCostCenterDetailscost_center_status.setSelectedKey(data.cost_center_status);
+
+FormCarCostCenterDetails.setVisible(true);
+
+NavContainer.to(PageCarCostCenterDetails);

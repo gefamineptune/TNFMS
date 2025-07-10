@@ -1,6 +1,0 @@
-await apiGET_Status();
-
-FormStatusCreate.setVisible(false);
-FormStatusDetails.setVisible(false);
-
-NavContainer.to(PageStatus);

@@ -14,6 +14,13 @@
 			"fieldName": "cost_center_label",
 			"fieldType": "smalltext",
 			"isUnique": false
+		},
+		{
+			"id": "a9b5d183-da0a-44b9-eb12-a694eef3bf58",
+			"fieldName": "cost_center_status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
 		}
 	],
 	"indices": [
@@ -34,7 +41,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_cost_center",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.09.0845",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

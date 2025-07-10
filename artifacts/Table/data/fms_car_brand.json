@@ -1,47 +1,52 @@
 [
 	{
-		"id": "f0515d89-7680-428d-9077-a0f9712441bb",
-		"createdAt": "1748170622256",
-		"updatedAt": "1748170622256",
+		"id": "ec402f81-2f7c-4535-9081-a0dc752bf309",
+		"createdAt": "1751868778949",
+		"updatedAt": "1751960964900",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"brand_id": "B3",
-		"brand_name": "Honda"
+		"brand_id": "CRBRND9262",
+		"brand_name": "Hyundai",
+		"brand_status": "STS6085"
 	},
 	{
-		"id": "95203316-202a-43a5-9eb9-80029c01a83f",
-		"createdAt": "1748170622256",
-		"updatedAt": "1748170622256",
+		"id": "e5e32680-02ff-4e17-b791-1e5515fef9ea",
+		"createdAt": "1751868749935",
+		"updatedAt": "1751960964900",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"brand_id": "B4",
-		"brand_name": "Nissan"
+		"brand_id": "CRBRND152",
+		"brand_name": "Toyota",
+		"brand_status": "STS6085"
 	},
 	{
-		"id": "58d0dba1-3b16-4425-a3ac-040252165699",
-		"createdAt": "1748170622256",
-		"updatedAt": "1748170622256",
+		"id": "db8a4309-da0f-4c04-8504-e344dd9cf546",
+		"createdAt": "1751868760002",
+		"updatedAt": "1751960964900",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"brand_id": "B5",
-		"brand_name": "Hyundai"
+		"brand_id": "CRBRND9283",
+		"brand_name": "BYD",
+		"brand_status": "STS6085"
 	},
 	{
-		"id": "53eef96b-83a1-4dcc-90a2-bfb188ac2043",
-		"createdAt": "1748170622256",
-		"updatedAt": "1748170622256",
+		"id": "29624e5a-a524-4a62-a7fa-4f537bde177e",
+		"createdAt": "1751868772768",
+		"updatedAt": "1751960964900",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"brand_id": "B2",
-		"brand_name": "BYD"
+		"brand_id": "CRBRND6589",
+		"brand_name": "Nissan",
+		"brand_status": "STS6085"
 	},
 	{
-		"id": "53b165c9-2481-4de7-aada-c3c0bfbfeb77",
-		"createdAt": "1748170622256",
-		"updatedAt": "1748170622256",
+		"id": "1ed63244-fd47-4f7f-93e1-34d838b2d7f1",
+		"createdAt": "1751868766573",
+		"updatedAt": "1751960964900",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"brand_id": "B1",
-		"brand_name": "Toyota"
+		"brand_id": "CRBRND541",
+		"brand_name": "Honda",
+		"brand_status": "STS6085"
 	}
 ]

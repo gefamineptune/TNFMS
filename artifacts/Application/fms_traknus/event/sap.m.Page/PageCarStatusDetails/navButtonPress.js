@@ -7,4 +7,6 @@ inFormCarStatusCreatestatus_label.setValueState("None");
 FormCarStatusCreate.setVisible(false);
 FormCarStatusDetails.setVisible(false);
 
+await apiGET_CarStatus();
+
 NavContainer.to(PageCarStatus);

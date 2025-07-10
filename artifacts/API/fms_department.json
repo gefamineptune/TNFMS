@@ -232,49 +232,101 @@
 					"parent": "",
 					"name": "id",
 					"description": "Unique record ID",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "a8fbf1e6-944c-4730-aeac-7f77239493de",
 					"parent": "",
 					"name": "department_id",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "5b634093-1226-4e9a-b5f1-bc428b70d1b2",
 					"parent": "",
 					"name": "department_name",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
+				},
+				{
+					"id": "43acee95-7bae-479d-8cb9-5e144633c532",
+					"name": "department_status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "5fb283d6-da51-4129-847f-9bdb91f92a94",
 					"parent": "",
 					"name": "createdAt",
 					"description": "Date when record was created",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "bd8b58ff-fea5-4edf-99ea-8726236a7fd3",
 					"parent": "",
 					"name": "createdBy",
 					"description": "Created by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "6e6ea117-6bc3-49f4-8d27-6b5a3b0ed6b6",
 					"parent": "",
 					"name": "updatedAt",
 					"description": "Date when record was updated",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "2f16e042-02c3-41c6-bc67-33c4d6f2a146",
 					"parent": "",
 					"name": "updatedBy",
 					"description": "Updated by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				}
 			]
 		},
@@ -312,7 +364,7 @@
 	"documentation": [],
 	"name": "fms_department",
 	"endpoint": "/api/entity",
-	"ver": "25.05.25.0415",
+	"ver": "25.07.08.0826",
 	"version": null,
 	"description": null,
 	"mediaType": "application/json",

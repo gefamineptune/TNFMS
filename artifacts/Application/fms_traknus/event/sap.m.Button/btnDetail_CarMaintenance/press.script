@@ -1,0 +1,10 @@
+// List: get selected row
+// Replace yourField with fieldName
+const context = oEvent.oSource.getBindingContext();
+
+// Get entire model
+const data = context.getObject();
+
+modelFormCarMaintenanceDetails.setData(data);
+
+DialogUpdate_CarMaintenance.open();

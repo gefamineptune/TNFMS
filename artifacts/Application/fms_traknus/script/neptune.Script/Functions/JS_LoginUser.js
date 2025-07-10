@@ -7,7 +7,7 @@ async function loginUser(user_id, user_password){
     };
 
     // Call the GET_User API
-    const getUser = await apiGET_UserRelationship(options);
+    const getUser = await apiGET_UserRelation(options);
     // Log the getUser data to console
     // console.log("User data:", getUser[0]);
 

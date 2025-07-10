@@ -1,0 +1,55 @@
+{
+	"id": "234c499e-5fb6-40e5-a2d5-1ebec8eb30b6",
+	"createdAt": "2025-06-26T02:37:04.143Z",
+	"createdBy": "admin",
+	"fields": [
+		{
+			"id": "12ffa6ba-1bd6-4211-db97-fd10261f24e4",
+			"fieldName": "maintenance_item",
+			"fieldType": "smalltext",
+			"isUnique": false
+		},
+		{
+			"id": "ecd7ce77-c58a-4251-9417-5cfc2c50c906",
+			"fieldName": "maintenance_date",
+			"fieldType": "timestamp",
+			"isUnique": false
+		},
+		{
+			"id": "0a450981-e49a-46f5-97e8-ab9021a2ca21",
+			"fieldName": "maintenance_vehicle_km",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "0a2763ba-b9b5-4689-93b9-3da9186c9eb0",
+			"fieldName": "maintenance_price",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "389a3a56-1420-4712-e364-1b55ae9ba16e",
+			"fieldName": "maintenance_remarks",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f09e6543-6a8b-4bbf-beeb-ffa723578af9",
+			"fieldName": "maintenance_car_id",
+			"fieldType": "smalltext",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "fms_maintenance_report",
+	"description": null,
+	"ver": "25.07.10.0356",
+	"enableAudit": false,
+	"includeDataInPackage": true,
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",
+	"generationStrategy": null,
+	"rolesRead": [],
+	"rolesWrite": []
+}

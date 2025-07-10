@@ -6,6 +6,10 @@ const data = context.getObject();
 
 modelFormBranchDetails.setData(data);
 
+modelinFormBranchDetailsbranch_status.setData(await apiGET_Status());
+
+inFormBranchDetailsbranch_status.setSelectedKey(data.branch_status);
+
 FormBranchDetails.setVisible(true);
 
 NavContainer.to(PageBranchDetails);

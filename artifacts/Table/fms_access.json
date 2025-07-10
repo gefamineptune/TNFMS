@@ -12,8 +12,15 @@
 		{
 			"id": "ed636c51-443f-4c56-cb60-1765ca67d8f1",
 			"fieldName": "access_label",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"isUnique": false
+		},
+		{
+			"id": "19ffa20b-1510-4436-d64b-d8785ea69067",
+			"fieldName": "access_status",
+			"fieldType": "smalltext",
+			"isUnique": false,
+			"isNullable": false
 		}
 	],
 	"indices": [
@@ -34,7 +41,7 @@
 	"foreignKeys": [],
 	"name": "fms_access",
 	"description": null,
-	"ver": "25.07.04.0914",
+	"ver": "25.07.08.0758",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

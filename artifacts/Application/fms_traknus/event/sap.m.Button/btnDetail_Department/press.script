@@ -7,6 +7,10 @@ const data = context.getObject();
 
 modelFormDepartmentDetails.setData(data);
 
+modelinFormDepartmentDetailsdepartment_status.setData(await apiGET_Status());
+
+inFormDepartmentDetailsdepartment_status.setSelectedKey(data.department_status);
+
 FormDepartmentDetails.setVisible(true);
 
 NavContainer.to(PageDepartmentDetails);

@@ -28,7 +28,7 @@ var paginationBarUser = {
             }
         }
 
-        apiGET_UserRelationship(opts);
+        apiGET_UserRelation(opts);
 
     },
     handlePagination() {

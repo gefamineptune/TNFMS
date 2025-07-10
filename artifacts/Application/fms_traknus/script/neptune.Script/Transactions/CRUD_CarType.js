@@ -1,6 +1,7 @@
 async function CarType_Create(){
     var type_id = inFormCarTypeCreatetype_id;
     var type_name = inFormCarTypeCreatetype_name;
+    var type_status = inFormCarTypeCreatetype_status;
 
     if(type_id.getValue() === ""){
         type_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function CarType_Create(){
     } else {
         type_name.setValueState("None");
     }
+    if(type_status.getSelectedKey() === ""){
+        type_status.setValueState("Error");
+        type_status.setValueStateText("Please select type status");
+        sap.m.MessageToast.show(
+            `Please provide type status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        type_status.setValueState("None");
+    }
 
     // First check if type_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function CarType_Create(){
             data: {
                 type_id: type_id.getValue().toUpperCase(),
                 type_name: type_name.getValue(),
+                type_status: type_status.getSelectedKey(),
             },
         };
         await apiPUT_CarType(options);
@@ -65,6 +81,7 @@ async function CarType_Create(){
 
         inFormCarTypeCreatetype_id.setValue("");
         inFormCarTypeCreatetype_name.setValue("");
+        inFormCarTypeCreatetype_status.setSelectedKey("");
 
         FormCarTypeCreate.setVisible(false);
         FormCarTypeDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function CarType_Update(){
             id: modelFormCarTypeDetails.getData().id,
             type_id: inFormCarTypeDetailstype_id.getValue().toUpperCase(),
             type_name: inFormCarTypeDetailstype_name.getValue(),
+            type_status: inFormCarTypeDetailstype_status.getSelectedKey(),
         },
     };
     await apiPOST_CarType(options);

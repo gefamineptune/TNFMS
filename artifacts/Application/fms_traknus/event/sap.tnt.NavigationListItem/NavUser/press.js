@@ -33,7 +33,7 @@ if (Filter_User_Department.getItems().length > 0 && Filter_User_Department.getIt
 }
 // Filter_User_Department.setSelectedKey("");
 
-modelTableUser.setData(await apiGET_UserRelationship());
+modelTableUser.setData(await apiGET_UserRelation());
 
 FormUserCreate.setVisible(false);
 FormUserDetails.setVisible(false);

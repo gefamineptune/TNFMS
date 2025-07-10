@@ -164,7 +164,7 @@ async function User_Create(){
         FormUserDetails.setVisible(false);
 
         NavContainer.to(PageUser);
-        await apiGET_UserRelationship();
+        await apiGET_UserRelation();
         sap.m.MessageToast.show(
             `Create User: ${get_user_id} was successfull!`,
             {
@@ -199,7 +199,7 @@ async function User_Update(){
     FormUserDetails.setVisible(false);
 
     NavContainer.to(PageUser);
-    await apiGET_UserRelationship();
+    await apiGET_UserRelation();
     sap.m.MessageToast.show(
         `Update User: ${inFormUserDetailsuser_id.getValue()} was successfull!`,
         {
@@ -225,7 +225,7 @@ async function User_Delete(){
     
     // Call the delete API and refresh the User list
     await apiDELETE_User(options);
-    await apiGET_UserRelationship();
+    await apiGET_UserRelation();
     
     // Show success message
     DialogDelete_User.close()

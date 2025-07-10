@@ -6,6 +6,10 @@ const data = context.getObject();
 
 modelFormCarFuelDetails.setData(data);
 
+modelinFormCarFuelDetailsfuel_status.setData(await apiGET_Status());
+
+inFormCarFuelDetailsfuel_status.setSelectedKey(data.fuel_status);
+
 FormCarFuelDetails.setVisible(true);
 
 NavContainer.to(PageCarFuelDetails);

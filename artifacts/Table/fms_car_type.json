@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "type_name",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "dd6e7ba4-b967-4469-a491-edb9231abdc8",
+			"fieldName": "type_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_type",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.08.0815",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

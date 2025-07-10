@@ -1,6 +1,0 @@
-await apiGET_CarAcquisition();
-
-FormCarAcquisitionCreate.setVisible(false);
-FormCarAcquisitionDetails.setVisible(false);
-
-NavContainer.to(PageCarAcquisition);

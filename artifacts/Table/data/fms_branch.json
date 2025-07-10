@@ -1,56 +1,72 @@
 [
 	{
-		"id": "ce4f4a14-98a8-47a8-a6d1-5914b3584b69",
-		"createdAt": "1748578242924",
-		"updatedAt": "1748578242924",
+		"id": "f396ebf5-b882-490a-8295-a144b8d424b6",
+		"createdAt": "1751867470888",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR4",
-		"branch_label": "Bali"
+		"branch_id": "BRNCH8074",
+		"branch_label": "Bandung",
+		"branch_status": "STS7517"
 	},
 	{
-		"id": "809de004-32b1-431b-95d5-c38e8554154f",
-		"createdAt": "1748149439580",
-		"updatedAt": "1748149439580",
+		"id": "f200c488-fcb4-47f5-a73b-a246b1a060d1",
+		"createdAt": "1751867500989",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR1",
-		"branch_label": "Jakarta"
+		"branch_id": "BRNCH1212",
+		"branch_label": "Solo",
+		"branch_status": "STS7517"
 	},
 	{
-		"id": "43909cc1-44a0-4911-b1c0-a96d1b2a5053",
-		"createdAt": "1748571991596",
-		"updatedAt": "1748571991596",
+		"id": "e1ade528-1194-4071-8f72-6d56c1f86dbe",
+		"createdAt": "1751867463051",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR2",
-		"branch_label": "Bandung"
+		"branch_id": "BRNCH9694",
+		"branch_label": "Jakarta",
+		"branch_status": "STS7517"
 	},
 	{
-		"id": "320b22b2-68ba-410f-ab0b-8386b327c68e",
-		"createdAt": "1748578271453",
-		"updatedAt": "1748673821320",
+		"id": "8cc942e1-46e6-4e21-8762-2dd868e84649",
+		"createdAt": "1751867478824",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR6",
-		"branch_label": "Solo"
+		"branch_id": "BRNCH833",
+		"branch_label": "Surabaya",
+		"branch_status": "STS7517"
 	},
 	{
-		"id": "2dc9785e-1687-4981-82b6-9d4d4e0146af",
-		"createdAt": "1748578253426",
-		"updatedAt": "1748578253426",
+		"id": "400d76f3-9536-4f40-b186-28608181930f",
+		"createdAt": "1751867485392",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR5",
-		"branch_label": "Semarang"
+		"branch_id": "BRNCH8327",
+		"branch_label": "Bali",
+		"branch_status": "STS7517"
 	},
 	{
-		"id": "06583b4f-77f6-49df-8d5b-6ac1771bb78d",
-		"createdAt": "1748572279461",
-		"updatedAt": "1748572279461",
+		"id": "35e788e9-358b-4abe-8852-cddbcc19cc52",
+		"createdAt": "1751867495797",
+		"updatedAt": "1751959659315",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"branch_id": "BR3",
-		"branch_label": "Surabaya"
+		"branch_id": "BRNCH7518",
+		"branch_label": "Semarang",
+		"branch_status": "STS7517"
+	},
+	{
+		"id": "2002409d-9c48-40e5-9503-e72669a0a666",
+		"createdAt": "1751867442864",
+		"updatedAt": "1751959659315",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"branch_id": "BRNCH3214",
+		"branch_label": "Medan",
+		"branch_status": "STS7517"
 	}
 ]

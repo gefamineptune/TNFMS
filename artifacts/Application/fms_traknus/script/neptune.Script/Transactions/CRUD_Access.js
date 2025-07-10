@@ -1,6 +1,7 @@
 async function Access_Create(){
     var access_id = inFormAccessCreateaccess_id;
     var access_label = inFormAccessCreateaccess_label;
+    var access_status = inFormAccessCreateaccess_status;
 
     if(access_id.getValue() === ""){
         access_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function Access_Create(){
     } else {
         access_label.setValueState("None");
     }
+    if(access_status.getSelectedKey() === ""){
+        access_status.setValueState("Error");
+        access_status.setValueStateText("Please select access status");
+        sap.m.MessageToast.show(
+            `Please provide access status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        access_status.setValueState("None");
+    }
 
     // First check if access_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function Access_Create(){
             data: {
                 access_id: access_id.getValue().toUpperCase(),
                 access_label: access_label.getValue(),
+                access_status: access_status.getSelectedKey(),
             },
         };
         await apiPUT_Access(options);
@@ -65,6 +81,7 @@ async function Access_Create(){
 
         inFormAccessCreateaccess_id.setValue("");
         inFormAccessCreateaccess_label.setValue("");
+        inFormAccessCreateaccess_status.setSelectedKey("");
 
         FormAccessCreate.setVisible(false);
         FormAccessDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function Access_Update(){
             id: modelFormAccessDetails.getData().id,
             access_id: inFormAccessDetailsaccess_id.getValue().toUpperCase(),
             access_label: inFormAccessDetailsaccess_label.getValue(),
+            access_status: inFormAccessDetailsaccess_status.getSelectedKey(),
         },
     };
     await apiPOST_Access(options);

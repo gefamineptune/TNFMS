@@ -19,4 +19,6 @@ inFormRoleDetailsrole_status.setSelectedKey("");
 BoxFormRoleCreate.setVisible(false);
 BoxFormRoleDetails.setVisible(false);
 
+await apiGET_RoleRelation();
+
 NavContainer.to(PageRole);

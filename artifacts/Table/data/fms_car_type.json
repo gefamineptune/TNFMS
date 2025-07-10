@@ -1,47 +1,42 @@
 [
 	{
-		"id": "b85c9271-98c6-48fe-b20b-2c2cb7fdba0e",
-		"createdAt": "1748170074651",
-		"updatedAt": "1748170074651",
+		"id": "dde0683e-b554-47d1-943f-8bba466f02bc",
+		"createdAt": "1751869092840",
+		"updatedAt": "1751962494615",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"type_id": "T1",
-		"type_name": "Avanza"
+		"type_id": "CRTYP3333",
+		"type_name": "Rush",
+		"type_status": "STS6085"
 	},
 	{
-		"id": "a4db50ec-e416-4f55-9127-3eff14dce404",
-		"createdAt": "1748170074651",
-		"updatedAt": "1748170074651",
+		"id": "cbccd9d8-84e5-4732-931d-b183aad85c50",
+		"createdAt": "1751869109092",
+		"updatedAt": "1751962494615",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"type_id": "T3",
-		"type_name": "Sealion 7"
+		"type_id": "CRTYP3452",
+		"type_name": "Seal",
+		"type_status": "STS6085"
 	},
 	{
-		"id": "3030dc04-09a8-4259-b016-0fc163de5d46",
-		"createdAt": "1748170074651",
-		"updatedAt": "1748170074651",
+		"id": "a25b51b9-72a9-4009-96c3-56c4b2aa6f08",
+		"createdAt": "1751869101864",
+		"updatedAt": "1751962494615",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"type_id": "T4",
-		"type_name": "Seal"
+		"type_id": "CRTYP3975",
+		"type_name": "Innova Zenix",
+		"type_status": "STS6085"
 	},
 	{
-		"id": "06050c6f-a259-42ba-b347-27a7d0aa72e3",
-		"createdAt": "1748170074651",
-		"updatedAt": "1748170074651",
+		"id": "34f18fc6-93f1-4488-8345-2c9f79164b50",
+		"createdAt": "1751869116110",
+		"updatedAt": "1751962494615",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"type_id": "T2",
-		"type_name": "Rush"
-	},
-	{
-		"id": "0060d079-d2dc-47a1-b546-15677daf161a",
-		"createdAt": "1748170074651",
-		"updatedAt": "1748170074651",
-		"createdBy": "admin",
-		"updatedBy": "admin",
-		"type_id": "T5",
-		"type_name": "Innova Zenix"
+		"type_id": "CRTYP2527",
+		"type_name": "Avanza",
+		"type_status": "STS6085"
 	}
 ]

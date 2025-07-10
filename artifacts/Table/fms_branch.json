@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "branch_label",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "93948993-fae4-4d68-b36e-59500886de23",
+			"fieldName": "branch_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_branch",
 	"description": null,
-	"ver": "25.07.04.0914",
+	"ver": "25.07.08.0757",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

@@ -232,49 +232,101 @@
 					"parent": "",
 					"name": "id",
 					"description": "Unique record ID",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "bd88dadc-b836-4106-be50-dd0fffb8cace",
 					"parent": "",
 					"name": "branch_id",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "6cea4d0b-c250-4cda-8302-3d41dded77fd",
 					"parent": "",
 					"name": "branch_label",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
+				},
+				{
+					"id": "19e528fa-cab8-4c3b-ab7a-9bb27844c04a",
+					"name": "branch_status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "9a514b96-e8da-47c8-885c-ae631e722945",
 					"parent": "",
 					"name": "createdAt",
 					"description": "Date when record was created",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "dc7f4395-a202-4a09-ba5a-ca5e425217ac",
 					"parent": "",
 					"name": "createdBy",
 					"description": "Created by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "0fb8a519-0c3c-4a09-8765-664f6333aef2",
 					"parent": "",
 					"name": "updatedAt",
 					"description": "Date when record was updated",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "ca8b135c-8432-4ddb-bd66-3c48f624fcbd",
 					"parent": "",
 					"name": "updatedBy",
 					"description": "Updated by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				}
 			]
 		},
@@ -312,7 +364,7 @@
 	"documentation": [],
 	"name": "fms_branch",
 	"endpoint": "/api/entity",
-	"ver": "25.05.25.0456",
+	"ver": "25.07.08.0728",
 	"version": null,
 	"description": null,
 	"mediaType": "application/json",

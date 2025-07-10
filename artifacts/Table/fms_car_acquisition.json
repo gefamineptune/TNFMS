@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "acquisition_label",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "874012d6-a0dc-48b3-e901-6785ab887fc7",
+			"fieldName": "acquisition_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_acquisition",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.08.0757",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

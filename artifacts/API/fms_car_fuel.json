@@ -232,49 +232,118 @@
 					"parent": "",
 					"name": "id",
 					"description": "Unique record ID",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "c7ffd30d-1d59-4f9e-b0b1-f5c5ce85e4c2",
 					"parent": "",
 					"name": "fuel_id",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "8378deac-d001-46ab-808d-de9263d60c22",
 					"parent": "",
 					"name": "fuel_label",
 					"description": "",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
+				},
+				{
+					"id": "f00efe83-e6f5-47c8-f817-eb93d959b958",
+					"name": "fuel_subtype",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
+				},
+				{
+					"id": "d616b809-ffa0-49d5-dd14-d05e3635b262",
+					"name": "fuel_status",
+					"objectType": "string",
+					"description": "",
+					"required": false,
+					"value": "",
+					"minLength": "",
+					"maxLength": "",
+					"default": "",
+					"example": "",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "40e00cc1-8f0e-48ab-80b0-a671156e08d5",
 					"parent": "",
 					"name": "createdAt",
 					"description": "Date when record was created",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "b88ffbfc-58c1-4d66-8fe3-12c428f6f8af",
 					"parent": "",
 					"name": "createdBy",
 					"description": "Created by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "3f4312dd-5d10-4816-8ce1-c90af5a050de",
 					"parent": "",
 					"name": "updatedAt",
 					"description": "Date when record was updated",
-					"objectType": "number"
+					"objectType": "number",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				},
 				{
 					"id": "9cd29b7a-2227-460c-a2e3-9619b9a5447a",
 					"parent": "",
 					"name": "updatedBy",
 					"description": "Updated by",
-					"objectType": "string"
+					"objectType": "string",
+					"isParent": false,
+					"enableValueHelp": false,
+					"canAddSubNode": false,
+					"enabled": true,
+					"showNameField": true
 				}
 			]
 		},
@@ -312,7 +381,7 @@
 	"documentation": [],
 	"name": "fms_car_fuel",
 	"endpoint": "/api/entity",
-	"ver": "25.05.25.1040",
+	"ver": "25.07.08.0808",
 	"version": null,
 	"description": null,
 	"mediaType": "application/json",

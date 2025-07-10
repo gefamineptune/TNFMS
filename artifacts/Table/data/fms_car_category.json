@@ -1,11 +1,12 @@
 [
 	{
-		"id": "5290bf01-5499-4223-ae8b-a7c8747fd095",
-		"createdAt": "1748224827448",
-		"updatedAt": "1748224827448",
+		"id": "56487f3d-4741-48f2-b8aa-f55117e649a9",
+		"createdAt": "1751857810692",
+		"updatedAt": "1751961419093",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"category_id": "CT1",
-		"category_label": "Mobil 4x2 Penumpang"
+		"category_id": "CRCTG5072",
+		"category_label": "Mobil 4x2 Penumpang",
+		"category_status": "STS6085"
 	}
 ]

@@ -1,6 +1,7 @@
 async function CarCategory_Create(){
     var category_id = inFormCarCategoryCreatecategory_id;
     var category_label = inFormCarCategoryCreatecategory_label;
+    var category_status = inFormCarCategoryCreatecategory_status;
 
     if(category_id.getValue() === ""){
         category_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function CarCategory_Create(){
     } else {
         category_label.setValueState("None");
     }
+    if(category_status.getSelectedKey() === ""){
+        category_status.setValueState("Error");
+        category_status.setValueStateText("Please select category status");
+        sap.m.MessageToast.show(
+            `Please provide category status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        category_status.setValueState("None");
+    }
 
     // First check if category_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function CarCategory_Create(){
             data: {
                 category_id: category_id.getValue().toUpperCase(),
                 category_label: category_label.getValue(),
+                category_status: category_status.getSelectedKey(),
             },
         };
         await apiPUT_CarCategory(options);
@@ -65,6 +81,7 @@ async function CarCategory_Create(){
 
         inFormCarCategoryCreatecategory_id.setValue("");
         inFormCarCategoryCreatecategory_label.setValue("");
+        inFormCarCategoryCreatecategory_status.setSelectedKey("");
 
         FormCarCategoryCreate.setVisible(false);
         FormCarCategoryDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function CarCategory_Update(){
             id: modelFormCarCategoryDetails.getData().id,
             category_id: inFormCarCategoryDetailscategory_id.getValue().toUpperCase(),
             category_label: inFormCarCategoryDetailscategory_label.getValue(),
+            category_status: inFormCarCategoryDetailscategory_status.getSelectedKey(),
         },
     };
     await apiPOST_CarCategory(options);

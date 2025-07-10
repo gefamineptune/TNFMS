@@ -1,0 +1,26 @@
+{
+	"id": "5fb99d7f-2455-45bb-a143-40563d49241d",
+	"createdAt": "2025-07-07T02:34:22.915Z",
+	"createdBy": "admin",
+	"globalScripts": [],
+	"externalModules": [],
+	"entitySets": [
+		{
+			"id": "eee62ec8-4823-41d5-a243-158abac8aab6",
+			"name": "fms_car_status",
+			"contextname": "fms_car_status"
+		}
+	],
+	"apis": [],
+	"name": "Generate_Random_ID",
+	"ver": "25.07.07.0241",
+	"description": null,
+	"folder": "",
+	"content": "file:///content.js",
+	"useAsGlobalScript": false,
+	"lastRunSuccessful": true,
+	"isTypescript": false,
+	"language": "javascript",
+	"jsscriptGroup": "9872b520-c49e-4d4a-85a4-870902755905",
+	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a"
+}

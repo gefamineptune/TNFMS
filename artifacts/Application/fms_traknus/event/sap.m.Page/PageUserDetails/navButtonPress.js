@@ -14,4 +14,6 @@ inFormUserCreateuser_status.setSelectedKey("");
 FormUserCreate.setVisible(false);
 FormUserDetails.setVisible(false);
 
+await apiGET_UserRelation();
+
 NavContainer.to(PageUser);

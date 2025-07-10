@@ -1,6 +1,0 @@
-await apiGET_CarBrand();
-
-FormCarBrandCreate.setVisible(false);
-FormCarBrandDetails.setVisible(false);
-
-NavContainer.to(PageCarBrand);

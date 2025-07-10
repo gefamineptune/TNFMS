@@ -6,6 +6,10 @@ const data = context.getObject();
 
 modelFormCarAcquisitionDetails.setData(data);
 
+modelinFormCarAcquisitionDetailsacquisition_status.setData(await apiGET_Status());
+
+inFormCarAcquisitionDetailsacquisition_status.setSelectedKey(data.acquisition_status);
+
 FormCarAcquisitionDetails.setVisible(true);
 
 NavContainer.to(PageCarAcquisitionDetails);

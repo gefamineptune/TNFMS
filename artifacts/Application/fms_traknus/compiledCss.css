@@ -167,12 +167,27 @@
   color: #131e29 !important;
 }
 
+#FormCarMaintenanceCreate .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormCarMaintenanceDetails .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
 #BoxDetailDocument_Car .sapMLabelInner {
   justify-content: flex-start !important;
   color: #131e29 !important;
 }
 
 #FormDocumentReportDetails .sapMLabelInner {
+  justify-content: flex-start !important;
+  color: #131e29 !important;
+}
+
+#FormParameterDetails .sapMLabelInner {
   justify-content: flex-start !important;
   color: #131e29 !important;
 }

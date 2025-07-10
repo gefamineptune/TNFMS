@@ -24,6 +24,7 @@ inFormCarsDetailscar_brand.setSelectedKey(data.fms_car_car_brand);
 inFormCarsDetailscar_type.setSelectedKey(data.fms_car_car_type);
 inFormCarsDetailscar_cost_center.setSelectedKey(data.fms_car_car_cost_center);
 inFormCarsDetailscar_condition_type.setSelectedKey(data.fms_car_car_condition_type);
+inFormCarsDetailscar_fuel.setSelectedKey(data.fms_car_car_fuel);
 inFormCarsDetailscar_category.setSelectedKey(data.fms_car_car_category);
 inFormCarsDetailscar_branch.setSelectedKey(data.fms_car_car_branch);
 inFormCarsDetailscar_ownership.setSelectedKey(data.fms_car_ownership_ownership_id);

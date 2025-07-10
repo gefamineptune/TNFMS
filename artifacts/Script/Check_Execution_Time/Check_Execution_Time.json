@@ -7,7 +7,7 @@
 	"entitySets": [],
 	"apis": [],
 	"name": "Check_Execution_Time",
-	"ver": "25.05.30.0327",
+	"ver": "25.07.09.1310",
 	"description": null,
 	"folder": "",
 	"content": "file:///content.js",

@@ -1,0 +1,28 @@
+[
+	{
+		"id": "855ecff8-c2d5-473e-af12-3fddc78b3ff7",
+		"createdAt": "1752120035054",
+		"updatedAt": "1752120851352",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"maintenance_item": "Test",
+		"maintenance_date": "2025-07-24T00:00:00.000Z",
+		"maintenance_vehicle_km": 300,
+		"maintenance_price": 1000000,
+		"maintenance_remarks": "Test",
+		"maintenance_car_id": "TYT-001-ZNX"
+	},
+	{
+		"id": "45bd9c69-6fd6-46b9-992c-ca083454362d",
+		"createdAt": "1752119762408",
+		"updatedAt": "1752119762408",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"maintenance_item": "Periodical Service",
+		"maintenance_date": "2025-07-14T00:00:00.000Z",
+		"maintenance_vehicle_km": 1000,
+		"maintenance_price": 80000,
+		"maintenance_remarks": "-",
+		"maintenance_car_id": "TYT-001-ZNX"
+	}
+]

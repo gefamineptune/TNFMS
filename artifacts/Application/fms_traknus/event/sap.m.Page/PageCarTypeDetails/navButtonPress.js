@@ -7,4 +7,6 @@ inFormCarTypeCreatetype_name.setValueState("None");
 FormCarTypeCreate.setVisible(false);
 FormCarTypeDetails.setVisible(false);
 
+await apiGET_CarType();
+
 NavContainer.to(PageCarType);

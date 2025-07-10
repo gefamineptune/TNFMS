@@ -1,6 +1,0 @@
-await apiGET_CarStatus();
-
-FormCarStatusCreate.setVisible(false);
-FormCarStatusDetails.setVisible(false);
-
-NavContainer.to(PageCarStatus);

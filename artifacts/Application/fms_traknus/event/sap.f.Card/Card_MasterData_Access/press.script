@@ -1,6 +1,0 @@
-await apiGET_Access();
-
-FormAccessCreate.setVisible(false);
-FormAccessDetails.setVisible(false);
-
-NavContainer.to(PageAccess);

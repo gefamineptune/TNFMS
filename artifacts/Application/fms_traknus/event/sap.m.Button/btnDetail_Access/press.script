@@ -6,6 +6,10 @@ const data = context.getObject();
 
 modelFormAccessDetails.setData(data);
 
+modelinFormAccessDetailsaccess_status.setData(await apiGET_Status());
+
+inFormAccessDetailsaccess_status.setSelectedKey(data.access_status);
+
 FormAccessDetails.setVisible(true);
 
 NavContainer.to(PageAccessDetails);

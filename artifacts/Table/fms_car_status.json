@@ -12,8 +12,15 @@
 		},
 		{
 			"fieldName": "status_label",
-			"fieldType": "text",
+			"fieldType": "smalltext",
 			"description": "",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "d14e6923-a00c-431d-ace6-76ad60997faf",
+			"fieldName": "status_status",
+			"fieldType": "smalltext",
 			"isUnique": false,
 			"isNullable": false
 		}
@@ -37,7 +44,7 @@
 	"foreignKeys": [],
 	"name": "fms_car_status",
 	"description": null,
-	"ver": "25.07.04.0915",
+	"ver": "25.07.09.0259",
 	"enableAudit": false,
 	"includeDataInPackage": true,
 	"package": "d37bc1b7-8ba4-4d30-90db-0c32d010121a",

@@ -1,6 +1,0 @@
-await apiGET_CarOwnership();
-
-FormCarOwnershipCreate.setVisible(false);
-FormCarOwnershipDetails.setVisible(false);
-
-NavContainer.to(PageCarOwnership);

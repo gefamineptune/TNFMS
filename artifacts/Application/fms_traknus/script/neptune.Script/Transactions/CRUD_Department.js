@@ -1,6 +1,7 @@
 async function Department_Create(){
     var department_id = inFormDepartmentCreatedepartment_id;
     var department_name = inFormDepartmentCreatedepartment_name;
+    var department_status = inFormDepartmentCreatedepartment_status;
 
     if(department_id.getValue() === ""){
         department_id.setValueState("Error");
@@ -30,6 +31,20 @@ async function Department_Create(){
     } else {
         department_name.setValueState("None");
     }
+    if(department_status.getSelectedKey() === ""){
+        department_status.setValueState("Error");
+        department_status.setValueStateText("Please select department status");
+        sap.m.MessageToast.show(
+            `Please provide department status`,
+            {
+                my: sap.ui.core.Popup.Dock.CenterBottom,
+                at: sap.ui.core.Popup.Dock.CenterBottom
+            }
+        );
+        return;
+    } else {
+        department_status.setValueState("None");
+    }
 
     // First check if department_id is unique before creating
     var options = {
@@ -57,6 +72,7 @@ async function Department_Create(){
             data: {
                 department_id: department_id.getValue().toUpperCase(),
                 department_name: department_name.getValue(),
+                department_status: department_status.getSelectedKey(),
             },
         };
         await apiPUT_Department(options);
@@ -65,6 +81,7 @@ async function Department_Create(){
 
         inFormDepartmentCreatedepartment_id.setValue("");
         inFormDepartmentCreatedepartment_name.setValue("");
+        inFormDepartmentCreatedepartment_status.setSelectedKey("");
 
         FormDepartmentCreate.setVisible(false);
         FormDepartmentDetails.setVisible(false);
@@ -90,6 +107,7 @@ async function Department_Update(){
             id: modelFormDepartmentDetails.getData().id,
             department_id: inFormDepartmentDetailsdepartment_id.getValue().toUpperCase(),
             department_name: inFormDepartmentDetailsdepartment_name.getValue(),
+            department_status: inFormDepartmentDetailsdepartment_status.getSelectedKey(),
         },
     };
     await apiPOST_Department(options);

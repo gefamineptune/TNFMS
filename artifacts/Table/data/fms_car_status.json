@@ -1,65 +1,82 @@
 [
 	{
-		"id": "e8977c52-acac-413e-92e1-f04c44238983",
-		"createdAt": "1749717387324",
-		"updatedAt": "1749717387324",
+		"id": "fe8fb93c-2f8c-4627-bbe0-39fc21ed1678",
+		"createdAt": "1751857475487",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "S3",
-		"status_label": "In Use"
+		"status_id": "CRSTS9641",
+		"status_label": "Under Maintenance",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "d132a270-f4ad-47a3-ac8a-02654ec6f047",
-		"createdAt": "1748150047875",
-		"updatedAt": "1748150047875",
+		"id": "ded6484f-6abd-47eb-8009-285e0f0c525f",
+		"createdAt": "1751857493556",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "A1",
-		"status_label": "Available"
+		"status_id": "CRSTS8645",
+		"status_label": "Need Inspection",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "c3bd4b16-d8af-4b5f-950e-9f3bac4995e1",
-		"createdAt": "1749717411937",
-		"updatedAt": "1749717411937",
+		"id": "d198d11e-9b4e-46d4-a0e6-3dd209b85581",
+		"createdAt": "1751857418362",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "S5",
-		"status_label": "On Check"
+		"status_id": "CRSTS1456",
+		"status_label": "Booked",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "b2cad214-e999-4554-910d-5e81fe859f98",
-		"createdAt": "1748150047875",
-		"updatedAt": "1748150047875",
+		"id": "b9942776-f209-43eb-a698-061997edb945",
+		"createdAt": "1751857383870",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "A2",
-		"status_label": "Not Available"
+		"status_id": "CRSTS6790",
+		"status_label": "Not Available",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "a358545a-7397-4759-8772-dfe038b3bb03",
-		"createdAt": "1749717376643",
-		"updatedAt": "1749717376643",
+		"id": "7d256dd9-1f5d-4978-9390-b712c835569d",
+		"createdAt": "1751857437601",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "S2",
-		"status_label": "Under Document Processing"
+		"status_id": "CRSTS8650",
+		"status_label": "In Use",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "6ecc7f1b-110e-40a7-83be-dc12f237ca40",
-		"createdAt": "1749717361671",
-		"updatedAt": "1749717361671",
+		"id": "65c09335-7f37-4abf-b625-1a47e0767bc0",
+		"createdAt": "1751857460013",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "S1",
-		"status_label": "Under Maintenance"
+		"status_id": "CRSTS1348",
+		"status_label": "Under Document Processing",
+		"status_status": "STS6085"
 	},
 	{
-		"id": "3ea40b07-b7ec-458f-93af-a183c73ad722",
-		"createdAt": "1749717393782",
-		"updatedAt": "1749717393782",
+		"id": "42eeaeff-602f-4067-b188-158671f9e9a5",
+		"createdAt": "1751857401765",
+		"updatedAt": "1752029959316",
 		"createdBy": "admin",
 		"updatedBy": "admin",
-		"status_id": "S4",
-		"status_label": "Booked"
+		"status_id": "CRSTS6221",
+		"status_label": "Waiting Approval",
+		"status_status": "STS6085"
+	},
+	{
+		"id": "0304b463-1cf8-4a87-8957-1dc3762b4526",
+		"createdAt": "1751857372079",
+		"updatedAt": "1752029959316",
+		"createdBy": "admin",
+		"updatedBy": "admin",
+		"status_id": "CRSTS1793",
+		"status_label": "Available",
+		"status_status": "STS6085"
 	}
 ]
